@@ -1,0 +1,14 @@
+.tour-details {
+  display: flex;
+  gap: 10px;
+  margin-top: 134px;
+  color: $color-default-white;
+}
+
+.tour-details__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 20px;
+  border: 1px solid $color-default-white-transparent;
+}

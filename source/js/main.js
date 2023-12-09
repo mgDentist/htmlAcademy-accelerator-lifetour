@@ -2,6 +2,8 @@ import {iosVhFix} from './utils/ios-vh-fix';
 import {initModals} from './modules/modals/init-modals';
 import {Form} from './modules/form-validate/form';
 
+import { videoStarter } from './modules/video-starter/video-starter';
+
 // ---------------------------------
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -12,6 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
   iosVhFix();
 
   // Modules
+  videoStarter();
   // ---------------------------------
 
   // все скрипты должны быть в обработчике 'DOMContentLoaded', но не все в 'load'
