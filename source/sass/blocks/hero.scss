@@ -1,3 +1,59 @@
 .hero__container {
   padding: 0;
 }
+
+.hero__subsection {
+  position: relative;
+}
+
+.hero__subsection-text-block {
+  position: absolute;
+  top: 20%;
+  padding-left: 120px;
+
+  h2 {
+    position: relative;
+    z-index: 2;
+    max-width: 944px;
+    margin-bottom: 25px;
+    font-size: 77px;
+    font-weight: 800;
+    line-height: 77px;
+    color: $color-default-white;
+  }
+
+  p {
+    max-width: 470px;
+    margin-bottom: 35px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $color-default-white;
+  }
+}
+
+.hero__subsection-btn {
+  padding: 19px 33px;
+}
+
+//slider
+.hero__slider .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: $color-transparent;
+  opacity: 1;
+  border: 1px solid $color-default-white;
+  border-radius: 50%;
+}
+
+.hero__slider .swiper-pagination-bullet-active {
+  background-color: $color-default-white;
+  width: 10px;
+  height: 10px;
+}
+
+.hero__slider .swiper-pagination {
+  right: -573px;
+  left: auto;
+  bottom: 100px;
+}

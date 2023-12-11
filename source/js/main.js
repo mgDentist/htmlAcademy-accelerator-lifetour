@@ -2,7 +2,8 @@ import {iosVhFix} from './utils/ios-vh-fix';
 import {initModals} from './modules/modals/init-modals';
 import {Form} from './modules/form-validate/form';
 
-import { videoStarter } from './modules/video-starter/video-starter';
+import {videoStarter} from './modules/video-starter/video-starter';
+import {heroSlider} from './modules/slider-hero/slider-hero';
 
 // ---------------------------------
 
@@ -15,6 +16,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // Modules
   videoStarter();
+  heroSlider();
   // ---------------------------------
 
   // все скрипты должны быть в обработчике 'DOMContentLoaded', но не все в 'load'
