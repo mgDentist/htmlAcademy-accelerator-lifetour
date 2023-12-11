@@ -3,10 +3,36 @@
   z-index: 1;
   top: 0%;
   right: -15%;
+
+  @include vp-1439 {
+    position: relative;
+    max-width: 442px;
+    right: -25%;
+  }
+
+  @include vp-767 {
+    display: none;
+  }
+}
+
+.hero-kamchatka__lower-photo {
+
+  @include vp-1439 {
+    position: absolute;
+    left: 0;
+  }
+
+  @include vp-767 {}
 }
 
 .hero-kamchatka__upper-photo {
   position: absolute;
   top: 24%;
   right: -33%;
+
+  @include vp-1439 {
+    right: 0;
+  }
+
+  @include vp-767 {}
 }
