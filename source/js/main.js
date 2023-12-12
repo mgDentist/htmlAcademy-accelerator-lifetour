@@ -5,6 +5,7 @@ import {Form} from './modules/form-validate/form';
 import {menuOpener} from './modules/menu-toggle/menu-toggle';
 import {videoStarter} from './modules/video-starter/video-starter';
 import {heroSlider} from './modules/slider-hero/slider-hero';
+import {toursSlider} from './modules/slider-tours/slider-tours';
 
 // ---------------------------------
 
@@ -19,6 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
   menuOpener();
   videoStarter();
   heroSlider();
+  toursSlider();
   // ---------------------------------
 
   // все скрипты должны быть в обработчике 'DOMContentLoaded', но не все в 'load'

@@ -125,7 +125,9 @@
   left: auto;
   bottom: 100px;
 
-  @include vp-1439 {}
+  @include vp-1439 {
+    right: 0;
+  }
 
   @include vp-767 {}
 }
