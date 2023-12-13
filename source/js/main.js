@@ -6,6 +6,7 @@ import {menuOpener} from './modules/menu-toggle/menu-toggle';
 import {videoStarter} from './modules/video-starter/video-starter';
 import {heroSlider} from './modules/slider-hero/slider-hero';
 import {toursSlider} from './modules/slider-tours/slider-tours';
+import {traningSlider} from './modules/slider-training/slider-training';
 
 // ---------------------------------
 
@@ -21,6 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
   videoStarter();
   heroSlider();
   toursSlider();
+  traningSlider();
   // ---------------------------------
 
   // все скрипты должны быть в обработчике 'DOMContentLoaded', но не все в 'load'

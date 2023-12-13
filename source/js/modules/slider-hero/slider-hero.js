@@ -8,14 +8,4 @@ export const heroSlider = new Swiper('.hero__slider', {
     el: '.swiper-pagination',
     clickable: true,
   },
-  // on: {
-  //   afterInit(swiper) {
-  //     // Проверка на существование элемента пагинации
-  //     if (swiper.pagination.el) {
-  //       swiper.pagination.el.style.right = '10px';
-  //       swiper.pagination.el.style.left = 'auto';
-  //       swiper.pagination.el.style.bottom = '10px'; // Пример для сдвига пагинации вниз
-  //     }
-  //   },
-  // },
 });
