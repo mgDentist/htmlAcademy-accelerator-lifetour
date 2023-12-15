@@ -28,7 +28,8 @@
   line-height: 100%;
 
   @include vp-1439 {
-
+    font-size: 25px;
+    line-height: 25px;
   }
 
   @include vp-767 {
