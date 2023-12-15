@@ -1,0 +1,86 @@
+.feedback-card {
+  max-width: 700px;
+  display: flex;
+  gap: 30px;
+  padding: 20px 40px 20px 20px;
+  background-color: $color-default-white;
+  box-shadow: 0px 0px 20px 0px rgba($color-resolution-blue, 0.10);
+
+  @include vp-1439 {
+    max-width: 565px;
+  }
+
+  @include vp-767 {
+    max-width: 320px;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.feedback-card__image {
+  max-width: 258px;
+}
+
+.feedback-card__text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @include vp-1439 {
+  }
+
+  @include vp-767 {
+    gap: 15px;
+  }
+}
+
+.feedback-card__description-wrapper {
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @include vp-1439 {}
+
+  @include vp-767 {}
+}
+
+.feedback-card__description-wrapper p {
+  font-size: 14px;
+  line-height: 22px;
+
+  @include vp-1439 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  @include vp-767 {}
+}
+
+.feedback-card__user-name {
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 13px;
+
+  @include vp-1439 {
+    margin-bottom: 6px;
+
+  }
+
+  @include vp-767 {
+    margin-bottom: 8px;
+  }
+}
+
+.feedback-card__user-info {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 100%;
+
+  @include vp-1439 {
+    line-height: 12px;
+  }
+
+  @include vp-767 {}
+}
