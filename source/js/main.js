@@ -8,6 +8,8 @@ import {heroSlider} from './modules/slider-hero/slider-hero';
 import {toursSlider} from './modules/slider-tours/slider-tours';
 import {traningSlider} from './modules/slider-training/slider-training';
 import {feedbackSlider} from './modules/slider-feedback/slider-feedback';
+import {initAdvantagesSlider} from './modules/slider-advantages/slider-advantages';
+import {advSlider} from './modules/slider-advantages/slider-advantages';
 
 // ---------------------------------
 
@@ -21,10 +23,12 @@ window.addEventListener('DOMContentLoaded', () => {
   // Modules
   menuOpener();
   videoStarter();
-  heroSlider();
-  toursSlider();
-  traningSlider();
-  feedbackSlider();
+  // heroSlider();
+  // toursSlider();
+  // traningSlider();
+  // feedbackSlider();
+  initAdvantagesSlider();
+  // advSlider();
   // ---------------------------------
 
   // все скрипты должны быть в обработчике 'DOMContentLoaded', но не все в 'load'

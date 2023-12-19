@@ -30,7 +30,9 @@ html {
 
 body {
   width: 100%;
+  max-width: 2500px; //тест для ограничения ширины страницы тк уезжает бесконечно фон
   height: 100%;
+  margin: 0 auto;
 
   background-color: $color-default-white;
 }

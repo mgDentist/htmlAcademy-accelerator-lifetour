@@ -1,6 +1,7 @@
 import Swiper from '../../vendor/swiper';
 
 export const feedbackSlider = new Swiper('.feedback__slider', {
+  slidesPerView: 'auto',
   loop: true,
   navigation: {
     nextEl: '.feedback__slider-button--next',
