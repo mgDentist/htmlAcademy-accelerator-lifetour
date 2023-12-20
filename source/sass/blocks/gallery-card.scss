@@ -1,6 +1,14 @@
 .gallery-card {
   height: 449px;
 
+  @include vp-1439 {
+    height: 450px;
+  }
+
+  @include vp-767 {
+    height: 260px;
+  }
+
   --double {
     display: flex;
     flex-direction: column;
@@ -8,13 +16,11 @@
   }
 }
 
-.gallery-card__image { // скорее всего переделать!!!
-// height: 416px;
-    width: 100%;
-    max-width: 458px;
-    min-width: 338px;
-    object-fit: cover;
+.gallery-card__image {
+  // скорее всего переделать!!! - из за высоты не работает правильно положение- ведь высота указана для всех фото а они разные
+  // height: 416px;
+  width: 100%;
+  max-width: 458px;
+  min-width: 338px;
+  object-fit: cover;
 }
-
-
-

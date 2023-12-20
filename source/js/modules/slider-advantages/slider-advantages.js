@@ -105,7 +105,6 @@ export const initAdvantagesSlider = () => {
     }
   };
 
-  checkSlider(); // Проверяем при инициализации
-  window.addEventListener('resize', checkSlider); // И при изменении размера окна
+  checkSlider();
+  window.addEventListener('resize', checkSlider);
 };
-

@@ -1,0 +1,129 @@
+.contacts {
+  position: relative;
+  padding: 65px 0 95px;
+  border-bottom: 1px solid rgb($color-default-black, 0.2);
+
+  @include vp-1439 {
+    padding: 40px 0 40px;
+  }
+
+  @include vp-767 {}
+}
+
+.contacts__title-wrapper {
+  position: relative;
+
+  @include vp-1439 {}
+
+  @include vp-767 {}
+}
+
+.contacts__title {
+  margin-bottom: 25px;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 100%;
+
+  @include vp-1439 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  @include vp-767 {
+    margin-bottom: 12px;
+    font-size: 22px;
+    line-height: 22px;
+  }
+}
+
+.contacts__title-decoration {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  white-space: nowrap;
+  font-size: 55px;
+  font-weight: 800;
+  line-height: 55px;
+  opacity: 0.03;
+
+  @include vp-1439 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  @include vp-767 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+}
+
+.contacts__title-wrapper p {
+  max-width: 500px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  line-height: 24px;
+
+  @include vp-1439 {
+    max-width: 480px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  @include vp-767 {
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.contacts__img-wrapper {
+  position: absolute;
+  bottom: 95px;
+  right: 120px;
+
+  @include vp-1439 {
+    position: static;
+    margin: 0 auto;
+  }
+
+  @include vp-767 {}
+}
+
+.contacts__img-map {
+
+
+  @include vp-1439 {
+    height: 340px;
+    width: 100%;
+    max-width: 1024px;
+    min-width: 768px;
+    object-fit: cover;
+  }
+
+  @include vp-767 {
+    height: 320px;
+    max-width: 350px;
+    min-width: 320px;
+  }
+}
+
+.contacts__map-pin {
+  position: absolute;
+  top: 50%;
+  right: 31%;
+
+  @include vp-1439 {
+    top: 68%;
+    right: 38%;
+  }
+
+  @include vp-767 {}
+}
+
+
+
+@include vp-1439 {}
+
+@include vp-767 {}

@@ -1347,6 +1347,68 @@
           </form>
         </div>
       </section>
+
+      <section class="contacts">
+        <div class="container contacts__container">
+          <div class="contacts__title-wrapper">
+            <h2 class="contacts__title">Контакты</h2>
+            <span class="contacts__title-decoration">Контакты</span>
+            <p>Свяжитесь с нами любым удобным для вас способом или приходите к нам в гости. Мы будем рады поделиться
+              увлекательными историями и подобрать для вас тур.</p>
+          </div>
+
+          <ul class="contacts__list contacts-list">
+            <li class="contacts-list__item">
+              <svg class="contacts-list__icon" width="26" height="26">
+                <use href="img/sprite.svg#phone"></use>
+              </svg>
+              <div class="contacts-list__text-wrapper">
+                <h3 class="contacts-list__title">Телефон</h3>
+                <a class="contacts-list__description" href="tel:+79837454545">+7 983 745-45-45</a>
+              </div>
+            </li>
+
+            <li class="contacts-list__item">
+              <svg class="contacts-list__icon" width="26" height="26">
+                <use href="img/sprite.svg#mail"></use>
+              </svg>
+              <div class="contacts-list__text-wrapper">
+                <h3 class="contacts-list__title">Email</h3>
+                <a class="contacts-list__description" href="mailto:info@lifetour.com">info@lifetour.com</a>
+              </div>
+            </li>
+
+            <li class="contacts-list__item">
+              <svg class="contacts-list__icon" width="26" height="26">
+                <use href="img/sprite.svg#pin-stroke"></use>
+              </svg>
+              <div class="contacts-list__text-wrapper">
+                <h3 class="contacts-list__title">Адрес</h3>
+                <p class="contacts-list__description">г. Москва, пр-т Мира, д. 14, офис 101</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="contacts__img-wrapper">
+          <picture>
+            <source type="image/webp" media="(min-width: 1440px)"
+              srcset="img/contacts/map-desktop.webp 1x, img/contacts/map-desktop@2x.webp 2x" width="585" height="324">
+            <source type="image/webp" media="(min-width: 768px)"
+              srcset="img/contacts/map-tablet.webp 1x, img/contacts/map-tablet@2x.webp 2x" width="" height="">
+            <source type="image/webp" srcset="img/contacts/map-mobile.webp 1x, img/contacts/map-mobile@2x.webp 2x"
+              width="" height="">
+            <source type="image/jpeg" media="(min-width: 1440px)"
+              srcset="img/contacts/map-desktop.jpg 1x, img/contacts/map-desktop@2x.jpg 2x" width="585" height="324">
+            <source type="image/jpeg" media="(min-width: 768px)"
+              srcset="img/contacts/map-tablet.jpg 1x, img/contacts/map-tablet@2x.jpg 2x" width="" height="">
+            <img class="contacts__img-map" src="img/contacts/map-mobile.jpg" srcset="img/contacts/map-mobile@2x.jpg 2x"
+              width="" height="" alt="" />
+          </picture>
+          <svg class="contacts__map-pin" width="48" height="48">
+            <use href="img/sprite.svg#pin-filled"></use>
+          </svg>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="container"></div>

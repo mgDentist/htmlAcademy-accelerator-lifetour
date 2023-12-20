@@ -4,12 +4,12 @@ import {Form} from './modules/form-validate/form';
 
 import {menuOpener} from './modules/menu-toggle/menu-toggle';
 import {videoStarter} from './modules/video-starter/video-starter';
-// import {heroSlider} from './modules/slider-hero/slider-hero';
-// import {toursSlider} from './modules/slider-tours/slider-tours';
-// import {traningSlider} from './modules/slider-training/slider-training';
-// import {feedbackSlider} from './modules/slider-feedback/slider-feedback';
+import {heroSlider} from './modules/slider-hero/slider-hero';
+import {toursSlider} from './modules/slider-tours/slider-tours';
+import {traningSlider} from './modules/slider-training/slider-training';
+import {feedbackSlider} from './modules/slider-feedback/slider-feedback';
 import {initAdvantagesSlider} from './modules/slider-advantages/slider-advantages';
-// import {advSlider} from './modules/slider-advantages/slider-advantages';
+import {advSlider} from './modules/slider-advantages/slider-advantages';
 import {gallerySlider} from './modules/slider-gallery/slider-gallery';
 
 // ---------------------------------
@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded', () => {
   // feedbackSlider();
   initAdvantagesSlider();
   // advSlider();
-  gallerySlider();
+  // gallerySlider();
   // ---------------------------------
 
   // все скрипты должны быть в обработчике 'DOMContentLoaded', но не все в 'load'
