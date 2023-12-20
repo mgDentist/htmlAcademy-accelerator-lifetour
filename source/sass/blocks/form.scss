@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  gap: 30px;
+
+  @include vp-1439 {
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+  }
+
+  @include vp-767 {
+    gap: 8px;
+  }
+}
+
+.form__input {
+  width: 360px;
+  padding: 20px 30px;
+  border: 1px solid rgb($color-navy-blue, 0.1);
+
+  @include vp-1439 {
+    width: 271px;
+  }
+
+  @include vp-767 {
+    width: 290px;
+  }
+}
+
+.form__button {
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+
+  @include vp-1439 {
+    width: 271px;
+  }
+
+  @include vp-767 {
+    width: 290px;
+  }
+}
+
+@include vp-1439 {}
+
+@include vp-767 {}

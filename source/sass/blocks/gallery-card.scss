@@ -1,0 +1,20 @@
+.gallery-card {
+  height: 449px;
+
+  --double {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+.gallery-card__image { // скорее всего переделать!!!
+// height: 416px;
+    width: 100%;
+    max-width: 458px;
+    min-width: 338px;
+    object-fit: cover;
+}
+
+
+

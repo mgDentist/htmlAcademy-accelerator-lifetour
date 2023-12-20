@@ -3,7 +3,7 @@
 
 // Default
 
-$color-default-black:               #2D383F;
+$color-default-black:               rgb(45, 56, 63);
 $color-default-white:               #ffffff;
 $color-transparent:                 rgba(255, 255, 255, 0);
 $color-default-disabled:            #999999;
@@ -15,7 +15,9 @@ $color-default-white-transparent:   rgba(255, 255, 255, 0.50);
 $color-navy-blue:                   #0266C1;
 $color-resolution-blue:             #1C3374;
 $color-torch-red:                   #ff1553;
-$color-elephant-50:                 rgba(45, 56, 63, 0.60);
+$color-pine-tree:                   #272C22;
+$color-elephant-50:                 rgba(45, 56, 63, 0.60); //это обычный дефолт блэк
+
 
 // Gradient
 
