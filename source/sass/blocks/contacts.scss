@@ -79,6 +79,7 @@
 }
 
 .contacts__img-wrapper {
+  width: fit-content;
   position: absolute;
   bottom: 95px;
   right: 120px;
@@ -92,7 +93,6 @@
 }
 
 .contacts__img-map {
-
 
   @include vp-1439 {
     height: 340px;

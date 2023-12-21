@@ -1,0 +1,25 @@
+.footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+
+  @include vp-1439 {
+    gap: 16px;
+  }
+}
+
+.footer-social__link {
+  display: flex;
+  padding: 5px 6px;
+  border: 1px solid rgb($color-default-black, 0.2);
+
+  @include vp-1439 {}
+
+  @include vp-767 {}
+}
+
+
+@include vp-1439 {}
+
+@include vp-767 {}

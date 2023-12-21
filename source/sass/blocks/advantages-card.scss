@@ -9,6 +9,10 @@
     padding: 30px 20px;
   }
 
+  @include vp-1023 {
+    max-width: 324px;
+  }
+
   @include vp-767 {
     max-width: 290px;
     padding: 20px 10px;
