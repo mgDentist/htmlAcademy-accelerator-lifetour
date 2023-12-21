@@ -64,7 +64,7 @@
 
 .header__inner-container {
   display: flex;
-  padding: 32px 20px;
+  padding: 43px 20px 41px;
   background-color: $color-navy-blue;
 
   @include vp-1439 {
@@ -83,11 +83,13 @@
 }
 
 .header__right-wrapper {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 79px;
+  padding-left: 32px;
 
   @include vp-1439 {
     max-width: 70%;

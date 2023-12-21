@@ -1,8 +1,8 @@
 .hero-kamchatka__mosaic-wrapper {
   position: absolute;
   z-index: 1;
-  top: 0%;
-  right: -15%;
+  top: -13px;
+  right: calc(-15% + 6px);
 
   @include vp-1439 {
     position: relative;
@@ -27,7 +27,7 @@
 
 .hero-kamchatka__upper-photo {
   position: absolute;
-  top: 24%;
+  top: 23%;
   right: -33%;
 
   @include vp-1439 {

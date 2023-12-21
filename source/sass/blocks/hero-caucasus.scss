@@ -1,6 +1,6 @@
 .hero-caucasus__video-wrapper {
   position: absolute;
-  top: 25%;
+  top: calc(24% + 4px);
   right: -24%;
 
   @include vp-1439 {
@@ -37,8 +37,8 @@
 .hero-caucasus__button-play {
   position: absolute;
   z-index: 2;
-  top: 45%;
-  right: 43%;
+  top: calc(40% + 2px);
+  right: 44%;
   width: 56px;
   height: 56px;
   background-color: $color-transparent;

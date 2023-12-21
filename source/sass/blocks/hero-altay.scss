@@ -1,7 +1,7 @@
 .hero-altay__video-wrapper {
   position: absolute;
   z-index: 1;
-  top: 50%;
+  top: calc(43% + 3px);
   right: -24%;
 
   @include vp-1439 {
