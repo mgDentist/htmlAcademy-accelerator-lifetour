@@ -8,7 +8,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 30px 20px;
+  padding: 28px 20px;
   color: $color-default-white;
 
   display: flex;
@@ -45,6 +45,9 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
 }
 
 .tours-card__description {
