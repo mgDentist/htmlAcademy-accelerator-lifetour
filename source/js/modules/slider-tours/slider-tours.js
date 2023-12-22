@@ -8,19 +8,25 @@ export const toursSlider = new Swiper('.tours__slider', {
 
   breakpoints: {
     1440: {
-      initialSlide: 0,
+      initialSlide: 5,
       slidesPerView: 3,
       spaceBetween: 30,
     },
 
+    1024: {
+      initialSlide: 3,
+      slidesPerView: 2,
+      spaceBetween: 18,
+    },
+
     768: {
-      initialSlide: 0,
+      initialSlide: 3,
       slidesPerView: 2,
       spaceBetween: 18,
     },
 
     320: {
-      initialSlide: 0,
+      initialSlide: 3,
       slidesPerView: 1,
       spaceBetween: 20,
     },
