@@ -8,19 +8,25 @@ export const traningSlider = new Swiper('.training__slider', {
 
   breakpoints: {
     1440: {
-      initialSlide: 0,
+      initialSlide: 7,
       slidesPerView: 4,
       spaceBetween: 20,
     },
 
+    1024: {
+      initialSlide: 4,
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+
     768: {
-      initialSlide: 0,
+      initialSlide: 4,
       slidesPerView: 3,
       spaceBetween: 20,
     },
 
     320: {
-      initialSlide: 0,
+      initialSlide: 2,
       slidesPerView: 1,
       spaceBetween: 20,
     },
