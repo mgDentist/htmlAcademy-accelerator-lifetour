@@ -1,7 +1,7 @@
 import Swiper from '../../vendor/swiper';
 
 export const feedbackSlider = new Swiper('.feedback__slider', {
-  slidesPerView: 'auto',
+
   loop: true,
   navigation: {
     nextEl: '.feedback__slider-button--next',
@@ -12,17 +12,19 @@ export const feedbackSlider = new Swiper('.feedback__slider', {
     1440: {
       initialSlide: 0,
       spaceBetween: 120,
+      slidesPerView: 'auto',
     },
 
     768: {
       initialSlide: 0,
-      spaceBetween: 30,
+      spaceBetween: 36,
+      slidesPerView: 'auto',
     },
 
-    320: {
+    350: {
       initialSlide: 0,
       slidesPerView: 1,
-      spaceBetween: 20,
+      spaceBetween: 100,
     },
   },
 });
