@@ -291,25 +291,27 @@
       </section>
 
       <section class="tours" data-test="tours">
-        <picture>
-          <source type="image/webp" media="(min-width: 1440px)"
-            srcset="img/background-decoration/clouds-tours-desktop.webp 1x, img/background-decoration/clouds-tours-desktop@2x.webp 2x"
-            width="602" height="1630">
-          <source type="image/webp" media="(min-width: 768px)"
-            srcset="img/background-decoration/clouds-tours-tablet.webp 1x, img/background-decoration/clouds-tours-tablet@2x.webp 2x"
-            width="602" height="1364">
-          <source type="image/webp"
-            srcset="img/background-decoration/clouds-tours-mobile.webp 1x, img/background-decoration/clouds-tours-mobile@2x.webp 2x"
-            width="346" height="595">
-          <source type="image/png" media="(min-width: 1440px)"
-            srcset="img/background-decoration/clouds-tours-desktop.png 1x, img/background-decoration/clouds-tours-desktop@2x.png 2x"
-            width="602" height="1630">
-          <source type="image/png" media="(min-width: 768px)"
-            srcset="img/background-decoration/clouds-tours-tablet.png 1x, img/background-decoration/clouds-tours-tablet@2x.png 2x"
-            width="602" height="1364">
-          <img class="tours__background-image" src="img/background-decoration/clouds-tours-mobile.png"
-            srcset="img/background-decoration/clouds-tours-mobile@2x.png 2x" width="346" height="595" alt="" />
-        </picture>
+        <div class="tours__background-wrapper">
+          <picture>
+            <source type="image/webp" media="(min-width: 1440px)"
+              srcset="img/background-decoration/clouds-tours-desktop.webp 1x, img/background-decoration/clouds-tours-desktop@2x.webp 2x"
+              width="602" height="1630">
+            <source type="image/webp" media="(min-width: 768px)"
+              srcset="img/background-decoration/clouds-tours-tablet.webp 1x, img/background-decoration/clouds-tours-tablet@2x.webp 2x"
+              width="602" height="1364">
+            <source type="image/webp"
+              srcset="img/background-decoration/clouds-tours-mobile.webp 1x, img/background-decoration/clouds-tours-mobile@2x.webp 2x"
+              width="171" height="595">
+            <source type="image/png" media="(min-width: 1440px)"
+              srcset="img/background-decoration/clouds-tours-desktop.png 1x, img/background-decoration/clouds-tours-desktop@2x.png 2x"
+              width="602" height="1630">
+            <source type="image/png" media="(min-width: 768px)"
+              srcset="img/background-decoration/clouds-tours-tablet.png 1x, img/background-decoration/clouds-tours-tablet@2x.png 2x"
+              width="602" height="1364">
+            <img class="tours__background-image" src="img/background-decoration/clouds-tours-mobile.png"
+              srcset="img/background-decoration/clouds-tours-mobile@2x.png 2x" width="171" height="595" alt="" />
+          </picture>
+        </div>
 
         <div class="container tours__container">
           <div class="tours__title-wrapper">
@@ -1164,7 +1166,7 @@
                 </p>
               </li>
               <li class="process__item process__item--circle-top">
-                <svg class="process__activity" width="25" height="25">
+                <svg class="process__activity process__activity--different" width="25" height="25">
                   <use href="img/sprite.svg#pine-tree"></use>
                 </svg>
                 <p class="process__description">

@@ -1,12 +1,12 @@
 .training {
-  padding: 43px 0 81px;
+  padding: 43px 0 25px;
 
   @include vp-1439 {
-    padding: 63px 0;
+    padding: 63px 0 47px;
   }
 
   @include vp-767 {
-    padding: 26px 0;
+    padding: 26px 0 21px;
   }
 }
 
@@ -152,7 +152,18 @@
   padding: 11px 11px 13px 10px;
 
 
-  @include vp-1439 {}
+  @include vp-1439 {
+    padding: 11px 11px 12px 10px;
+  }
+
+  @include vp-767 {}
+}
+
+.training__link-arrow {
+
+  @include vp-1439 {
+    margin-top: 1px;
+  }
 
   @include vp-767 {}
 }

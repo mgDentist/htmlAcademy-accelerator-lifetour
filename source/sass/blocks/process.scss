@@ -228,4 +228,17 @@
     margin-left: 4px;
     margin-top: 7px;
   }
+
+  &--different {
+
+    @include vp-1439 {
+      width: 24px;
+      height: 23px;
+    }
+
+    @include vp-767 {
+      width: 21px;
+      height: 20px;
+    }
+  }
 }
