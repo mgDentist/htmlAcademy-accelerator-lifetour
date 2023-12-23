@@ -19,6 +19,10 @@
   }
 }
 
+.feedback-card img {
+  max-width: 280px;
+}
+
 .feedback-card__text-container {
   display: flex;
   flex-direction: column;
@@ -102,3 +106,4 @@
 
   @include vp-767 {}
 }
+
