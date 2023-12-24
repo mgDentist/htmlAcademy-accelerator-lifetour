@@ -5,7 +5,7 @@ export const gallerySlider = new Swiper('.gallery__slider', {
     nextEl: '.gallery__slider-button--next',
     prevEl: '.gallery__slider-button--prev',
   },
-  slidesPerView: 'auto',
+  // slidesPerView: 'auto',
   loop: true,
 
   breakpoints: {
