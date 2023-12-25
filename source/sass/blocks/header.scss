@@ -116,6 +116,11 @@
   }
 }
 
+.header__logo-link {
+  display: flex;
+  align-items: center;
+}
+
 .header__tel {
   color: $color-default-white;
   font-size: 18px;
@@ -136,6 +141,16 @@
 
   &--mobile-menu-opened {
     color: $color-default-black;
+  }
+
+
+  @include hover-focus {
+    color: $color-resolution-blue;
+    outline: none;
+  }
+
+  @include active {
+    color: $color-navy-blue;
   }
 }
 

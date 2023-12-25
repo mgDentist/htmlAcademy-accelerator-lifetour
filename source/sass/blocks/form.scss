@@ -36,6 +36,30 @@
     line-height: 16px;
     opacity: 0.5;
   }
+
+  @include hover {
+    border: 1px solid $color-navy-blue;
+
+    &::placeholder {
+      color: $color-navy-blue;
+      opacity: 1;
+    }
+  }
+
+  @include focus {
+    border: 1px solid $color-resolution-blue;
+    outline: none;
+
+    // &::placeholder {
+    //   color: $color-navy-blue;
+    //   opacity: 1;
+    // }
+  }
+
+  @include active {
+    border: 1px solid $color-resolution-blue;
+    outline: none;
+  }
 }
 
 .form__button {
@@ -44,7 +68,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  // border-radius: 6px;
 
   @include vp-1439 {
     width: 271px;
@@ -55,7 +78,3 @@
     padding: 20px;
   }
 }
-
-@include vp-1439 {}
-
-@include vp-767 {}

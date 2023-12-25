@@ -22,13 +22,6 @@
   }
 }
 
-.tours__background-image {
-  // z-index: -5;
-  // position: absolute;
-  // top: 0;
-  // right: 0;
-}
-
 .tours__container {
   display: flex;
   flex-direction: column;
@@ -91,25 +84,6 @@
   }
 }
 
-.tours__item {
-
-  @include vp-1439 {
-    // max-width: fit-content;
-  }
-
-  @include vp-767 {
-
-  }
-}
-
-// .tours__item img {
-//   height: 416px;
-//   width: 100%;
-//   max-width: 458px;
-//   min-width: 320px;
-//   object-fit: cover;
-// }
-
 .tours__link {
   margin-top: 33px;
   align-self: center;
@@ -133,6 +107,22 @@
     font-weight: 700;
     line-height: 14px;
     letter-spacing: 0.56px;
+  }
+
+  @include hover-focus {
+    color: $color-resolution-blue;
+  }
+
+  @include active {
+    color: $color-navy-blue;
+  }
+
+  &:disabled {
+    color: $color-navy-blue;
+
+    svg {
+      color: rgb($color-navy-blue, 0.1);
+    }
   }
 }
 

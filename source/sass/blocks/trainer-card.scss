@@ -58,7 +58,25 @@
   align-self: start;
   margin-top: -1px;
   padding: 0px 4px 0 5px;
+  color: $color-default-black;
   border: 1px solid rgb($color-default-black, 0.3);
+
+  @include hover-focus {
+    color: $color-default-black;
+    border: 1px solid $color-default-black;
+  }
+
+  @include active {
+    color: $color-default-white;
+    border: 1px solid $color-navy-blue;
+    background-color: $color-navy-blue;
+  }
+
+  &:disabled {
+    color: rgb($color-default-black, 0.3);
+    background-color: $color-transparent;
+    border: 1px solid rgb($color-default-black, 0.3);
+  }
 }
 
 

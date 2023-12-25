@@ -29,8 +29,6 @@
 }
 
 .contacts-list__icon {
-
-
   @include vp-1439 {
     width: 24px;
     height: 24px;
@@ -76,9 +74,8 @@
   }
 }
 
-
-
-
-@include vp-1439 {}
-
-@include vp-767 {}
+.contacts-list__text-wrapper a {
+  @include hover {
+    color: rgb($color-default-black, 0.5);
+  }
+}

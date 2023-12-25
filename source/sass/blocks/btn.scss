@@ -30,4 +30,9 @@
     background-color: $color-default-white;
     border: 1px solid $color-resolution-blue;
   }
+
+  @include active {
+    color: $color-default-white;
+    background-color: $color-resolution-blue;
+  }
 }

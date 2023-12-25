@@ -1,13 +1,22 @@
 .nav-list {
   display: flex;
-  gap: 31px;
+  gap: 21px;
   align-items: center;
   padding-left: 30px;
 }
 
 .nav-list__link {
+  padding: 5px;
   font-size: 16px;
   line-height: 16px;
   color: $color-default-white;
   text-decoration: none;
+
+  @include hover {
+    border-bottom: 1px solid $color-default-white;
+  }
+
+  @include focus {
+    outline: 1px solid $color-default-white;
+  }
 }
