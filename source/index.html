@@ -25,12 +25,12 @@
     <header class="header">
       <div class="container header__container">
         <div class="header__inner-container">
-          <button class="header__button" type="button" aria-label="кнопка управления меню." data-button="menu-toggle">
+          <button class="header__button" type="button" aria-label="кнопка открытия меню." data-button="menu-toggle">
             <span class="visually-hidden">Открыть меню</span>
           </button>
           <div class="header__right-wrapper">
-            <a href="index.html" class="header__logo-link">
-              <svg class="header__logo" width="142" height="42">
+            <a href="index.html" class="header__logo-link" aria-label="логотип компании LifeTour">
+              <svg class="header__logo" width="142" height="42" role="img" focusable="false" aria-hidden="true">
                 <use href="img/sprite.svg#logotype"></use>
               </svg>
             </a>
@@ -85,7 +85,7 @@
                     srcset="img/hero/hero-caucaus-tablet.jpg 1x, img/hero/hero-caucaus-tablet@2x.jpg 2x" width="768"
                     height="1024">
                   <img src="img/hero/hero-caucaus-mobile.jpg" srcset="img/hero/hero-caucaus-mobile@2x.jpg 2x"
-                    width="360" height="568" alt="Панорама Кавказских гор." />
+                    width="360" height="568" alt="Панорама Кавказских гор." loading="lazy"/>
                 </picture>
 
                 <div class="hero__subsection-text-block">
@@ -95,13 +95,13 @@
                   <button class="btn hero__subsection-btn">Смотреть тур</button>
                   <ul class="tour-details">
                     <li class="tour-details__item">
-                      <svg width="12" height="12">
+                      <svg width="12" height="12" role="img" focusable="false" aria-hidden="true">
                         <use href="img/sprite.svg#moon"></use>
                       </svg>
                       <span>6 дней/5 ночей</span>
                     </li>
                     <li class="tour-details__item">
-                      <svg width="12" height="12">
+                      <svg width="12" height="12" role="img" focusable="false" aria-hidden="true">
                         <use href="img/sprite.svg#level"></use>
                       </svg>
                       <span>Высокая сложность</span>
@@ -126,7 +126,7 @@
                         width="442" height="300">
                       <img class="hero-caucasus__img-video-poster" data-poster="video-poster"
                         src="img/video-poster-mobile.jpg" srcset="img/video-poster-mobile@2x.jpg 2x" width="320"
-                        height="167" alt="" />
+                        height="167" alt="" loading="lazy"/>
                     </picture>
                     <iframe class="hero-caucasus__video" data-video="hero-video" width="482" height="317" data
                       src="https://www.youtube.com/embed/9TZXsZItgdw" title="Бесплатные интерактивные онлайн-курсы"
@@ -136,7 +136,7 @@
                     <button class="hero-caucasus__button-play btn" data-button="play-button" type="button"
                       aria-label="Воспроизвести видео.">
                       <svg class="hero-caucasus__svg-button-play" width="12" height="22" viewBox="0 0 12 22" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                        xmlns="http://www.w3.org/2000/svg" role="img" focusable="false" aria-hidden="true">
                         <path d="M12 11L0 0V22L12 11Z" fill="none" stroke="none" />
                       </svg>
                     </button>
@@ -164,7 +164,7 @@
                     srcset="img/hero/hero-kamchatka-tablet.jpg 1x, img/hero/hero-kamchatka-tablet@2x.jpg 2x" width="768"
                     height="1024">
                   <img src="img/hero/hero-kamchatka-tablet.jpg" srcset="img/hero/hero-kamchatka-tablet@2x.jpg 2x"
-                    width="360" height="568" alt="Панорама гор Камчатки." />
+                    width="360" height="568" alt="Панорама гор Камчатки." loading="lazy"/>
                 </picture>
                 <div class="hero__subsection-text-block">
                   <h2>Невероятная природа Камчатки</h2>
@@ -173,13 +173,13 @@
                   <button class="btn hero__subsection-btn">Смотреть тур</button>
                   <ul class="tour-details">
                     <li class="tour-details__item">
-                      <svg width="12" height="12">
+                      <svg width="12" height="12" role="img" focusable="false" aria-hidden="true">
                         <use href="img/sprite.svg#moon"></use>
                       </svg>
                       <span>9 дней/10 ночей</span>
                     </li>
                     <li class="tour-details__item">
-                      <svg width="12" height="12">
+                      <svg width="12" height="12" role="img" focusable="false" aria-hidden="true">
                         <use href="img/sprite.svg#level"></use>
                       </svg>
                       <span>Средняя сложность</span>
@@ -202,9 +202,9 @@
                       <source type="image/png" media="(min-width: 768px)"
                         srcset="img/hero/mosaic-kamchatka-lake-tablet.png 1x, img/hero/mosaic-kamchatka-lake-tablet@2x.png 2x"
                         width="266" height="351">
-                      <img class="hero-kamchatka__lower-photo" data-poster="video-poster"
+                      <img class="hero-kamchatka__lower-photo"
                         src="img/video-poster-mobile.jpg" srcset="img/video-poster-mobile@2x.png 2x" width="320"
-                        height="167" alt="" />
+                        height="167" alt="Виды Камчатки." loading="lazy"/>
                     </picture>
 
                     <picture>
@@ -223,9 +223,9 @@
                       <source type="image/png" media="(min-width: 768px)"
                         srcset="img/hero/mosaic-kamchatka-lady-tablet.jpg 1x, img/hero/mosaic-kamchatka-lady-tablet@2x.png 2x"
                         width="266" height="351">
-                      <img class="hero-kamchatka__upper-photo" data-poster="video-poster"
+                      <img class="hero-kamchatka__upper-photo"
                         src="img/video-poster-mobile.jpg" srcset="img/video-poster-mobile@2x.png 2x" width="320"
-                        height="167" alt="" />
+                        height="167" alt="Виды Камчатки" loading="lazy"/>
                     </picture>
 
                   </div>
@@ -261,23 +261,27 @@
                   <button class="btn hero__subsection-btn">Смотреть тур</button>
                   <ul class="tour-details">
                     <li class="tour-details__item">
-                      <svg width="12" height="12">
+                      <svg width="12" height="12" role="img" focusable="false" aria-hidden="true">
                         <use href="img/sprite.svg#moon"></use>
                       </svg>
                       <span>8 дней/7 ночей</span>
                     </li>
                     <li class="tour-details__item">
-                      <svg width="12" height="12">
+                      <svg width="12" height="12" role="img" focusable="false" aria-hidden="true">
                         <use href="img/sprite.svg#level"></use>
                       </svg>
                       <span>Лёгкая сложность</span>
                     </li>
                   </ul>
-                  <div class="hero-altay__video-wrapper">
+                  <!-- <div class="hero-altay__video-wrapper">
                     <iframe frameborder="0" style="border:none;width:370px;height:220px;" width="100%" height="220"
                       src="https://music.yandex.ru/iframe/track/112912322/25474374">Слушайте <a
                         href="https://music.yandex.ru/album/25474374/track/112912322">001. Конец фронтенда, одинаковые
                         фреймворки и логические свойства</a> на Яндекс Музыке</iframe>
+                  </div> -->
+                  <div class="hero-altay__video-wrapper">
+                    <iframe frameborder="0" width="100%" height="220"
+                      src="https://music.yandex.ru/iframe/track/112912322/25474374" title="подкаст про Код - первый выпуск" loading="lazy"></iframe>
                   </div>
                 </div>
               </section>
@@ -351,20 +355,20 @@
                   <div class="tours-card__container">
                     <div class="tours-card__upper-container">
                       <h3 class="tours-card__title">
-                        <svg class="tours-card__stars" width="16" height="16">
+                        <svg class="tours-card__stars" width="16" height="16" role="img" focusable="false" aria-hidden="true">
                           <use href="img/sprite.svg#pin"></use>
                         </svg>
                         Кавказ
                       </h3>
                       <div class="tours-card__duration-container">
                         <p class="tours-card__duration">
-                          <svg class="tours-card__stars" width="20" height="20">
+                          <svg class="tours-card__stars" width="20" height="20" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#sun"></use>
                           </svg>
                           4 дня
                         </p>
                         <p class="tours-card__duration">
-                          <svg class="tours-card__stars" width="21" height="18">
+                          <svg class="tours-card__stars" width="21" height="18" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#moon"></use>
                           </svg>
                           3 ночи
@@ -377,7 +381,7 @@
                       <div class="tours-card__complexity-container">
                         <h4 class="tours-card__inner-title tours-card__inner-title--stars">Сложность</h4>
                         <p class="tours-card__inner-description">
-                          <svg class="tours-card__stars" width="84" height="16">
+                          <svg class="tours-card__stars" width="84" height="16" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#stars-4"></use>
                           </svg>
                         </p>
@@ -424,20 +428,20 @@
                   <div class="tours-card__container">
                     <div class="tours-card__upper-container">
                       <h3 class="tours-card__title">
-                        <svg class="tours-card__stars" width="16" height="16">
+                        <svg class="tours-card__stars" width="16" height="16" role="img" focusable="false" aria-hidden="true">
                           <use href="img/sprite.svg#pin"></use>
                         </svg>
                         Алтай
                       </h3>
                       <div class="tours-card__duration-container">
                         <p class="tours-card__duration">
-                          <svg class="tours-card__stars" width="20" height="20">
+                          <svg class="tours-card__stars" width="20" height="20" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#sun"></use>
                           </svg>
                           14 дней
                         </p>
                         <p class="tours-card__duration">
-                          <svg class="tours-card__stars" width="21" height="18">
+                          <svg class="tours-card__stars" width="21" height="18" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#moon"></use>
                           </svg>
                           13 ночей
@@ -450,7 +454,7 @@
                       <div class="tours-card__complexity-container">
                         <h4 class="tours-card__inner-title tours-card__inner-title--stars">Сложность</h4>
                         <p class="tours-card__inner-description">
-                          <svg class="tours-card__stars" width="84" height="16">
+                          <svg class="tours-card__stars" width="84" height="16" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#stars-3"></use>
                           </svg>
                         </p>
@@ -497,20 +501,20 @@
                   <div class="tours-card__container">
                     <div class="tours-card__upper-container">
                       <h3 class="tours-card__title">
-                        <svg class="tours-card__stars" width="16" height="16">
+                        <svg class="tours-card__stars" width="16" height="16" role="img" focusable="false" aria-hidden="true">
                           <use href="img/sprite.svg#pin"></use>
                         </svg>
                         Адыгея
                       </h3>
                       <div class="tours-card__duration-container">
                         <p class="tours-card__duration">
-                          <svg class="tours-card__stars" width="20" height="20">
+                          <svg class="tours-card__stars" width="20" height="20" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#sun"></use>
                           </svg>
                           7 дней
                         </p>
                         <p class="tours-card__duration">
-                          <svg class="tours-card__stars" width="21" height="18">
+                          <svg class="tours-card__stars" width="21" height="18" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#moon"></use>
                           </svg>
                           6 ночей
@@ -523,7 +527,7 @@
                       <div class="tours-card__complexity-container">
                         <h4 class="tours-card__inner-title tours-card__inner-title--stars">Сложность</h4>
                         <p class="tours-card__inner-description">
-                          <svg class="tours-card__stars" width="84" height="16">
+                          <svg class="tours-card__stars" width="84" height="16" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#stars-4"></use>
                           </svg>
                         </p>
@@ -569,20 +573,20 @@
                   <div class="tours-card__container">
                     <div class="tours-card__upper-container">
                       <h3 class="tours-card__title">
-                        <svg class="tours-card__stars" width="16" height="16">
+                        <svg class="tours-card__stars" width="16" height="16" role="img" focusable="false" aria-hidden="true">
                           <use href="img/sprite.svg#pin"></use>
                         </svg>
                         Кавказ
                       </h3>
                       <div class="tours-card__duration-container">
                         <p class="tours-card__duration">
-                          <svg class="tours-card__stars" width="20" height="20">
+                          <svg class="tours-card__stars" width="20" height="20" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#sun"></use>
                           </svg>
                           4 дня
                         </p>
                         <p class="tours-card__duration">
-                          <svg class="tours-card__stars" width="21" height="18">
+                          <svg class="tours-card__stars" width="21" height="18" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#moon"></use>
                           </svg>
                           3 ночи
@@ -595,7 +599,7 @@
                       <div class="tours-card__complexity-container">
                         <h4 class="tours-card__inner-title tours-card__inner-title--stars">Сложность</h4>
                         <p class="tours-card__inner-description">
-                          <svg class="tours-card__stars" width="84" height="16">
+                          <svg class="tours-card__stars" width="84" height="16" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#stars-4"></use>
                           </svg>
                         </p>
@@ -641,20 +645,20 @@
                   <div class="tours-card__container">
                     <div class="tours-card__upper-container">
                       <h3 class="tours-card__title">
-                        <svg class="tours-card__stars" width="16" height="16">
+                        <svg class="tours-card__stars" width="16" height="16" role="img" focusable="false" aria-hidden="true">
                           <use href="img/sprite.svg#pin"></use>
                         </svg>
                         Алтай
                       </h3>
                       <div class="tours-card__duration-container">
                         <p class="tours-card__duration">
-                          <svg class="tours-card__stars" width="20" height="20">
+                          <svg class="tours-card__stars" width="20" height="20" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#sun"></use>
                           </svg>
                           14 дней
                         </p>
                         <p class="tours-card__duration">
-                          <svg class="tours-card__stars" width="21" height="18">
+                          <svg class="tours-card__stars" width="21" height="18" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#moon"></use>
                           </svg>
                           13 ночей
@@ -667,7 +671,7 @@
                       <div class="tours-card__complexity-container">
                         <h4 class="tours-card__inner-title tours-card__inner-title--stars">Сложность</h4>
                         <p class="tours-card__inner-description">
-                          <svg class="tours-card__stars" width="84" height="16">
+                          <svg class="tours-card__stars" width="84" height="16" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#stars-3"></use>
                           </svg>
                         </p>
@@ -713,20 +717,20 @@
                   <div class="tours-card__container">
                     <div class="tours-card__upper-container">
                       <h3 class="tours-card__title">
-                        <svg class="tours-card__stars" width="16" height="16">
+                        <svg class="tours-card__stars" width="16" height="16" role="img" focusable="false" aria-hidden="true">
                           <use href="img/sprite.svg#pin"></use>
                         </svg>
                         Адыгея
                       </h3>
                       <div class="tours-card__duration-container">
                         <p class="tours-card__duration">
-                          <svg class="tours-card__stars" width="20" height="20">
+                          <svg class="tours-card__stars" width="20" height="20" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#sun"></use>
                           </svg>
                           7 дней
                         </p>
                         <p class="tours-card__duration">
-                          <svg class="tours-card__stars" width="21" height="18">
+                          <svg class="tours-card__stars" width="21" height="18" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#moon"></use>
                           </svg>
                           6 ночей
@@ -739,7 +743,7 @@
                       <div class="tours-card__complexity-container">
                         <h4 class="tours-card__inner-title tours-card__inner-title--stars">Сложность</h4>
                         <p class="tours-card__inner-description">
-                          <svg class="tours-card__stars" width="84" height="16">
+                          <svg class="tours-card__stars" width="84" height="16" role="img" focusable="false" aria-hidden="true">
                             <use href="img/sprite.svg#stars-4"></use>
                           </svg>
                         </p>
@@ -759,13 +763,13 @@
             </div>
 
             <div class="tours__slider-button-container">
-              <button class="tours__slider-button tours__slider-button--prev btn" type="button">
-                <svg class="tours__link-arrow" width="14" height="9">
+              <button class="tours__slider-button tours__slider-button--prev btn" type="button" aria-label="предыдущий слайд">
+                <svg class="tours__link-arrow" width="14" height="9" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#arrow-left"></use>
                 </svg>
               </button>
-              <button class="tours__slider-button tours__slider-button--next btn" type="button">
-                <svg class="tours__link-arrow" width="14" height="9">
+              <button class="tours__slider-button tours__slider-button--next btn" type="button" aria-label="следующий слайд">
+                <svg class="tours__link-arrow" width="14" height="9" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#arrow-right"></use>
                 </svg>
               </button>
@@ -774,7 +778,7 @@
 
           <a class="tours__link" href="#">
             Показать все туры
-            <svg class="tours__link-arrow" width="6" height="12">
+            <svg class="tours__link-arrow" width="6" height="12" role="img" focusable="false" aria-hidden="true">
               <use href="img/sprite.svg#mini-arrow-right"></use>
             </svg>
           </a>
@@ -829,8 +833,8 @@
 
                   <div class="trainer-card__title-wrapper">
                     <h4 class="trainer-card__title">Александр Прокофьев</h4>
-                    <a class="trainer-card__link-social" href="#">
-                      <svg class="trainer-card__vk" width="14" height="8">
+                    <a class="trainer-card__link-social" href="#" aria-label="ссылка на страничку в Вконтакте">
+                      <svg class="trainer-card__vk" width="14" height="8" role="img" focusable="false" aria-hidden="true">
                         <use href="img/sprite.svg#vk"></use>
                       </svg>
                     </a>
@@ -869,8 +873,8 @@
 
                   <div class="trainer-card__title-wrapper">
                     <h4 class="trainer-card__title">Светлана Афиногенова</h4>
-                    <a class="trainer-card__link-social" href="#">
-                      <svg class="trainer-card__vk" width="14" height="8">
+                    <a class="trainer-card__link-social" href="#" aria-label="ссылка на страничку в Вконтакте">
+                      <svg class="trainer-card__vk" width="14" height="8" role="img" focusable="false" aria-hidden="true">
                         <use href="img/sprite.svg#vk"></use>
                       </svg>
                     </a>
@@ -910,8 +914,8 @@
 
                   <div class="trainer-card__title-wrapper">
                     <h4 class="trainer-card__title">Надежда Колесниченко</h4>
-                    <a class="trainer-card__link-social" href="#">
-                      <svg class="trainer-card__vk" width="14" height="8">
+                    <a class="trainer-card__link-social" href="#" aria-label="ссылка на страничку в Вконтакте">
+                      <svg class="trainer-card__vk" width="14" height="8" role="img" focusable="false" aria-hidden="true">
                         <use href="img/sprite.svg#vk"></use>
                       </svg>
                     </a>
@@ -951,8 +955,8 @@
 
                   <div class="trainer-card__title-wrapper">
                     <h4 class="trainer-card__title">Федор Кайгородов</h4>
-                    <a class="trainer-card__link-social" href="#">
-                      <svg class="trainer-card__vk" width="14" height="8">
+                    <a class="trainer-card__link-social" href="#" aria-label="ссылка на страничку в Вконтакте">
+                      <svg class="trainer-card__vk" width="14" height="8" role="img" focusable="false" aria-hidden="true">
                         <use href="img/sprite.svg#vk"></use>
                       </svg>
                     </a>
@@ -992,8 +996,8 @@
 
                   <div class="trainer-card__title-wrapper">
                     <h4 class="trainer-card__title">Александр Прокофьев</h4>
-                    <a class="trainer-card__link-social" href="#">
-                      <svg class="trainer-card__vk" width="14" height="8">
+                    <a class="trainer-card__link-social" href="#" aria-label="ссылка на страничку в Вконтакте">
+                      <svg class="trainer-card__vk" width="14" height="8" role="img" focusable="false" aria-hidden="true">
                         <use href="img/sprite.svg#vk"></use>
                       </svg>
                     </a>
@@ -1032,8 +1036,8 @@
 
                   <div class="trainer-card__title-wrapper">
                     <h4 class="trainer-card__title">Светлана Афиногенова</h4>
-                    <a class="trainer-card__link-social" href="#">
-                      <svg class="trainer-card__vk" width="14" height="8">
+                    <a class="trainer-card__link-social" href="#" aria-label="ссылка на страничку в Вконтакте">
+                      <svg class="trainer-card__vk" width="14" height="8" role="img" focusable="false" aria-hidden="true">
                         <use href="img/sprite.svg#vk"></use>
                       </svg>
                     </a>
@@ -1073,8 +1077,8 @@
 
                   <div class="trainer-card__title-wrapper">
                     <h4 class="trainer-card__title">Надежда Колесниченко</h4>
-                    <a class="trainer-card__link-social" href="#">
-                      <svg class="trainer-card__vk" width="14" height="8">
+                    <a class="trainer-card__link-social" href="#" aria-label="ссылка на страничку в Вконтакте">
+                      <svg class="trainer-card__vk" width="14" height="8" role="img" focusable="false" aria-hidden="true">
                         <use href="img/sprite.svg#vk"></use>
                       </svg>
                     </a>
@@ -1114,8 +1118,8 @@
 
                   <div class="trainer-card__title-wrapper">
                     <h4 class="trainer-card__title">Федор Кайгородов</h4>
-                    <a class="trainer-card__link-social" href="#">
-                      <svg class="trainer-card__vk" width="14" height="8">
+                    <a class="trainer-card__link-social" href="#" aria-label="ссылка на страничку в Вконтакте">
+                      <svg class="trainer-card__vk" width="14" height="8" role="img" focusable="false" aria-hidden="true">
                         <use href="img/sprite.svg#vk"></use>
                       </svg>
                     </a>
@@ -1129,13 +1133,13 @@
               </ul>
             </div>
             <div class="training__slider-button-container">
-              <button class="training__slider-button training__slider-button--prev btn" type="button">
-                <svg class="training__link-arrow" width="14" height="9">
+              <button class="training__slider-button training__slider-button--prev btn" type="button" aria-label="предыдущий слайд">
+                <svg class="training__link-arrow" width="14" height="9" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#arrow-left"></use>
                 </svg>
               </button>
-              <button class="training__slider-button training__slider-button--next btn" type="button">
-                <svg class="training__link-arrow" width="14" height="9">
+              <button class="training__slider-button training__slider-button--next btn" type="button" aria-label="следующий слайд">
+                <svg class="training__link-arrow" width="14" height="9" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#arrow-right"></use>
                 </svg>
               </button>
@@ -1148,7 +1152,7 @@
             <h2 class="process__title">Процесс обучения</h2>
             <ul class="process__list">
               <li class="process__item process__item--line-short">
-                <svg class="process__activity" width="25" height="25">
+                <svg class="process__activity" width="25" height="25" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#map"></use>
                 </svg>
                 <p class="process__description">
@@ -1156,7 +1160,7 @@
                 </p>
               </li>
               <li class="process__item">
-                <svg class="process__activity" width="25" height="25">
+                <svg class="process__activity" width="25" height="25" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#boots"></use>
                 </svg>
                 <p class="process__description">
@@ -1164,7 +1168,7 @@
                 </p>
               </li>
               <li class="process__item process__item--circle-top">
-                <svg class="process__activity process__activity--different" width="25" height="25">
+                <svg class="process__activity process__activity--different" width="25" height="25" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#pine-tree"></use>
                 </svg>
                 <p class="process__description">
@@ -1172,7 +1176,7 @@
                 </p>
               </li>
               <li class="process__item process__item--grow process__item--circle-top process__item--line-short">
-                <svg class="process__activity" width="25" height="25">
+                <svg class="process__activity" width="25" height="25" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#mountain"></use>
                 </svg>
                 <p class="process__description">
@@ -1380,13 +1384,13 @@
             </div>
 
             <div class="feedback__slider-button-container">
-              <button class="feedback__slider-button feedback__slider-button--prev btn" type="button">
-                <svg class="feedback__link-arrow" width="14" height="9">
+              <button class="feedback__slider-button feedback__slider-button--prev btn" type="button" aria-label="предыдущий слайд">
+                <svg class="feedback__link-arrow" width="14" height="9" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#arrow-left"></use>
                 </svg>
               </button>
-              <button class="feedback__slider-button feedback__slider-button--next btn" type="button">
-                <svg class="feedback__link-arrow" width="14" height="9">
+              <button class="feedback__slider-button feedback__slider-button--next btn" type="button" aria-label="следующий слайд">
+                <svg class="feedback__link-arrow" width="14" height="9" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#arrow-right"></use>
                 </svg>
               </button>
@@ -1407,7 +1411,7 @@
               <ul class="advantages__list swiper-wrapper"> <!--swiper-wrapper-->
                 <li class="advantages__item advantages-card swiper-slide"> <!--swiper-slide-->
                   <div class="advantages-card__svg-container">
-                    <svg class="advantages-card__svg" width="22" height="22">
+                    <svg class="advantages-card__svg" width="22" height="22" role="img" focusable="false" aria-hidden="true">
                       <use href="img/sprite.svg#level-adv"></use>
                     </svg>
                   </div>
@@ -1419,7 +1423,7 @@
 
                 <li class="advantages__item advantages-card swiper-slide"> <!--swiper-slide-->
                   <div class="advantages-card__svg-container">
-                    <svg class="advantages-card__svg" width="22" height="22">
+                    <svg class="advantages-card__svg" width="22" height="22" role="img" focusable="false" aria-hidden="true">
                       <use href="img/sprite.svg#crown"></use>
                     </svg>
                   </div>
@@ -1433,7 +1437,7 @@
 
                 <li class="advantages__item advantages-card swiper-slide"> <!--swiper-slide-->
                   <div class="advantages-card__svg-container">
-                    <svg class="advantages-card__svg" width="22" height="22">
+                    <svg class="advantages-card__svg" width="22" height="22" role="img" focusable="false" aria-hidden="true">
                       <use href="img/sprite.svg#boots-adv"></use>
                     </svg>
                   </div>
@@ -1447,7 +1451,7 @@
 
                 <li class="advantages__item advantages-card swiper-slide"> <!--swiper-slide-->
                   <div class="advantages-card__svg-container">
-                    <svg class="advantages-card__svg" width="22" height="22">
+                    <svg class="advantages-card__svg" width="22" height="22" role="img" focusable="false" aria-hidden="true">
                       <use href="img/sprite.svg#path"></use>
                     </svg>
                   </div>
@@ -1460,7 +1464,7 @@
 
                 <li class="advantages__item advantages-card swiper-slide"> <!--swiper-slide-->
                   <div class="advantages-card__svg-container">
-                    <svg class="advantages-card__svg" width="22" height="22">
+                    <svg class="advantages-card__svg" width="22" height="22" role="img" focusable="false" aria-hidden="true">
                       <use href="img/sprite.svg#leaf"></use>
                     </svg>
                   </div>
@@ -1473,13 +1477,13 @@
             </div>
 
             <div class="advantages__slider-button-container">
-              <button class="advantages__slider-button advantages__slider-button--prev btn" type="button">
-                <svg class="advantages__link-arrow" width="14" height="9">
+              <button class="advantages__slider-button advantages__slider-button--prev btn" type="button" aria-label="предыдущий слайд">
+                <svg class="advantages__link-arrow" width="14" height="9" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#arrow-left"></use>
                 </svg>
               </button>
-              <button class="advantages__slider-button advantages__slider-button--next btn" type="button">
-                <svg class="advantages__link-arrow" width="14" height="9">
+              <button class="advantages__slider-button advantages__slider-button--next btn" type="button" aria-label="следующий слайд">
+                <svg class="advantages__link-arrow" width="14" height="9" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#arrow-right"></use>
                 </svg>
               </button>
@@ -1695,13 +1699,13 @@
           </div>
 
           <div class="gallery__slider-button-container">
-            <button class="gallery__slider-button gallery__slider-button--prev btn" type="button">
-              <svg class="gallery__link-arrow" width="14" height="9">
+            <button class="gallery__slider-button gallery__slider-button--prev btn" type="button" aria-label="предыдущий слайд">
+              <svg class="gallery__link-arrow" width="14" height="9" role="img" focusable="false" aria-hidden="true">
                 <use href="img/sprite.svg#arrow-left"></use>
               </svg>
             </button>
-            <button class="gallery__slider-button gallery__slider-button--next btn" type="button">
-              <svg class="gallery__link-arrow" width="14" height="9">
+            <button class="gallery__slider-button gallery__slider-button--next btn" type="button" aria-label="следующий слайд">
+              <svg class="gallery__link-arrow" width="14" height="9" role="img" focusable="false" aria-hidden="true">
                 <use href="img/sprite.svg#arrow-right"></use>
               </svg>
             </button>
@@ -1762,7 +1766,7 @@
 
           <ul class="contacts__list contacts-list">
             <li class="contacts-list__item">
-              <svg class="contacts-list__icon" width="26" height="26">
+              <svg class="contacts-list__icon" width="26" height="26" role="img" focusable="false" aria-hidden="true">
                 <use href="img/sprite.svg#phone"></use>
               </svg>
               <div class="contacts-list__text-wrapper">
@@ -1772,7 +1776,7 @@
             </li>
 
             <li class="contacts-list__item">
-              <svg class="contacts-list__icon" width="26" height="26">
+              <svg class="contacts-list__icon" width="26" height="26" role="img" focusable="false" aria-hidden="true">
                 <use href="img/sprite.svg#mail"></use>
               </svg>
               <div class="contacts-list__text-wrapper">
@@ -1782,7 +1786,7 @@
             </li>
 
             <li class="contacts-list__item">
-              <svg class="contacts-list__icon" width="26" height="26">
+              <svg class="contacts-list__icon" width="26" height="26" role="img" focusable="false" aria-hidden="true">
                 <use href="img/sprite.svg#pin-stroke"></use>
               </svg>
               <div class="contacts-list__text-wrapper">
@@ -1813,9 +1817,9 @@
               srcset="img/contacts/map-tablet-768.jpg 1x, img/contacts/map-tablet-768@2x.jpg 2x" width="768"
               height="340">
             <img class="contacts__img-map" src="img/contacts/map-mobile.jpg" srcset="img/contacts/map-mobile@2x.jpg 2x"
-              width="350" height="320" alt="" />
+              width="350" height="320" alt="Компания находится по адресу: г. Москва, пр-т Мира, д. 14, офис 101" />
           </picture>
-          <svg class="contacts__map-pin" width="48" height="48">
+          <svg class="contacts__map-pin" width="48" height="48" role="img" focusable="false" aria-hidden="true">
             <use href="img/sprite.svg#pin-filled"></use>
           </svg>
         </div>
@@ -1824,8 +1828,8 @@
       <section class="footer">
         <div class="container footer__container">
           <div class="footer__top-content">
-            <a class="footer__logo-link" href="index.html">
-              <svg class="footer__logo" width="200" height="60">
+            <a class="footer__logo-link" href="index.html" aria-label="логотип компании LifeTour">
+              <svg class="footer__logo" width="200" height="60" role="img" focusable="false" aria-hidden="true">
                 <use href="img/sprite.svg#logotype"></use>
               </svg>
             </a>
@@ -1856,24 +1860,24 @@
           <div class="footer__social-container">
             <ul class="footer-social">
               <li class="footer-social__item">
-                <a class="footer-social__link" href="#">
-                  <svg class="footer__logo-social" width="18" height="18">
+                <a class="footer-social__link" href="#" aria-label="ссылка на страничку в Вконтакте компании LifeTour">
+                  <svg class="footer__logo-social" width="18" height="18" role="img" focusable="false" aria-hidden="true">
                     <use href="img/sprite.svg#vk"></use>
                   </svg>
                 </a>
               </li>
 
               <li class="footer-social__item">
-                <a class="footer-social__link" href="#">
-                  <svg class="footer__logo-social" width="18" height="18">
+                <a class="footer-social__link" href="#" aria-label="ссылка на страничку в Вконтакте компании LifeTour">
+                  <svg class="footer__logo-social" width="18" height="18" role="img" focusable="false" aria-hidden="true">
                     <use href="img/sprite.svg#odnoklassniki"></use>
                   </svg>
                 </a>
               </li>
 
               <li class="footer-social__item">
-                <a class="footer-social__link" href="#">
-                  <svg class="footer__logo-social" width="18" height="18">
+                <a class="footer-social__link" href="#" aria-label="ссылка на страничку в Вконтакте компании LifeTour">
+                  <svg class="footer__logo-social" width="18" height="18" role="img" focusable="false" aria-hidden="true">
                     <use href="img/sprite.svg#reddit"></use>
                   </svg>
                 </a>
