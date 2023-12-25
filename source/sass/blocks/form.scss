@@ -1,5 +1,7 @@
 .form {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 30px;
 
   @include vp-1439 {
@@ -15,24 +17,34 @@
 
 .form__input {
   width: 360px;
-  padding: 20px 30px;
+  padding: 19px 30px;
   border: 1px solid rgb($color-navy-blue, 0.1);
+  border-radius: 2px;
 
   @include vp-1439 {
     width: 271px;
+    padding: 17px 14px 15px;
+    border-radius: 0;
   }
 
   @include vp-767 {
     width: 290px;
+  }
+
+  &::placeholder {
+    font-size: 16px;
+    line-height: 16px;
+    opacity: 0.5;
   }
 }
 
 .form__button {
   width: 180px;
+  padding: 19px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 6px;
+  // border-radius: 6px;
 
   @include vp-1439 {
     width: 271px;
@@ -40,6 +52,7 @@
 
   @include vp-767 {
     width: 290px;
+    padding: 20px;
   }
 }
 
