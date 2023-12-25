@@ -1,13 +1,26 @@
 .contacts {
   position: relative;
-  padding: 65px 0 95px;
+  padding: 88px 0 95px;
   border-bottom: 1px solid rgb($color-default-black, 0.2);
 
   @include vp-1439 {
-    padding: 40px 0 40px;
+    padding: 59px 0 40px;
   }
 
-  @include vp-767 {}
+  @include vp-767 {
+    padding: 46px 0 39px;
+  }
+}
+
+.contacts__container {
+
+  @include vp-1439 {
+    padding: 0 43px 0 45px;
+  }
+
+  @include vp-767 {
+    padding: 0 15px;
+  }
 }
 
 .contacts__title-wrapper {
@@ -19,13 +32,13 @@
 }
 
 .contacts__title {
-  margin-bottom: 25px;
+  margin-bottom: 22px;
   font-size: 35px;
   font-weight: 800;
   line-height: 100%;
 
   @include vp-1439 {
-    margin-bottom: 20px;
+    margin-bottom: 17px;
     font-size: 25px;
     line-height: 25px;
   }
@@ -112,18 +125,19 @@
 .contacts__map-pin {
   position: absolute;
   top: 50%;
-  right: 31%;
+  right: calc(31% + 2px);
 
   @include vp-1439 {
-    top: 68%;
-    right: 38%;
+    top: calc(70% + 3px);
+    right: calc(44% + 3px);
+    height: 45px;
+    width: 42px;
   }
 
-  @include vp-767 {}
+  @include vp-767 {
+    top: calc(76% + 3px);
+    right: calc(31% + 0px);
+    height: 31px;
+    width: 29px;
+  }
 }
-
-
-
-@include vp-1439 {}
-
-@include vp-767 {}

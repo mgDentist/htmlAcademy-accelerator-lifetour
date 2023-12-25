@@ -5,21 +5,18 @@
   justify-content: center;
 
   @include vp-1439 {
-    gap: 16px;
+    gap: 18px;
   }
+
+  @include vp-767 {}
 }
 
 .footer-social__link {
   display: flex;
-  padding: 5px 6px;
+  padding: 5px;
   border: 1px solid rgb($color-default-black, 0.2);
 
   @include vp-1439 {}
 
   @include vp-767 {}
 }
-
-
-@include vp-1439 {}
-
-@include vp-767 {}
