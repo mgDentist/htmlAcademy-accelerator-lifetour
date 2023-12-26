@@ -16,22 +16,14 @@ $color-navy-blue:                   #0266C1;
 $color-resolution-blue:             #1C3374;
 $color-torch-red:                   #ff1553;
 $color-pine-tree:                   #272C22;
-$color-elephant-50:                 rgba(45, 56, 63, 0.60); //это обычный дефолт блэк
+$color-elephant-50:                 rgba(45, 56, 63, 0.60);
 $color-gainsboro:                   #d9d9d9;
-
-// Gradient
-
-$black-to-right:                    linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%);
 
 // Typography
 // ---------------------------------
 
 // переменная используемая в html для подключения скейлинга
 $fz-default:                        14px;
-
-// у некоторых шрифтов в ios возникают проблемы с символом рубля
-// https://www.artlebedev.ru/kovodstvo/sections/159/#13
-$ff-rouble:                         "Rouble", "Arial", sans-serif;
 
 $ff-placeholder:                    "Montserrat", "Arial", sans-serif;
 

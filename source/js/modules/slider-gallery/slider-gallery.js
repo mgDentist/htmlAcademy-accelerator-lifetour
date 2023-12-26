@@ -18,13 +18,13 @@ export const gallerySlider = new Swiper('.gallery__slider', {
     768: {
       initialSlide: 0,
       slidesPerView: 3,
-      spaceBetween: 5,
+      spaceBetween: 4.5,
     },
 
     320: {
       initialSlide: 0,
       slidesPerView: 2,
-      spaceBetween: 3,
+      spaceBetween: 2,
     },
   },
 });
