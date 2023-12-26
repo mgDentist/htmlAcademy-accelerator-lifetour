@@ -67,6 +67,10 @@
   line-height: 55px;
   opacity: 0.03;
   white-space: nowrap;
+
+  @include vp-767 {
+    top: -28px;
+  }
 }
 
 .tours__slider-wrapper {
