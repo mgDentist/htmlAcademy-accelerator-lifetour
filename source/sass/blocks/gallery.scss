@@ -2,7 +2,7 @@
   padding: 23px 0 3px;
 
 
-  @include vp-1439 {
+  @include vp-1199 {
     padding: 19px 0 0;
   }
 
@@ -14,7 +14,7 @@
 .gallery__container {
   margin-bottom: 46px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     margin-bottom: 20px;
   }
 
@@ -28,7 +28,7 @@
   font-size: 16px;
   line-height: 24px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     max-width: 420px;
     font-size: 14px;
     line-height: 22px;
@@ -45,7 +45,7 @@
   position: relative;
   margin-bottom: 23px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     margin-bottom: 17px;
   }
 
@@ -59,7 +59,7 @@
   font-weight: 800;
   line-height: 100%;
 
-  @include vp-1439 {
+  @include vp-1199 {
     font-size: 25px;
     line-height: 25px;
   }
@@ -80,7 +80,7 @@
   line-height: 55px;
   opacity: 0.03;
 
-  @include vp-1439 {
+  @include vp-1199 {
     font-size: 40px;
     line-height: 40px;
   }
@@ -97,7 +97,7 @@
   max-width: 1440px;
   margin: 0 auto;
 
-  @include vp-1439 {
+  @include vp-1199 {
     max-width: 1024px;
   }
 
@@ -118,7 +118,7 @@
   display: flex;
   gap: 4px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     top: -56px;
     right: 46px;
   }
@@ -132,7 +132,7 @@
 .gallery__slider-button {
   padding: 13px 10px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     padding: 12px 8px 12px 9px;
   }
 

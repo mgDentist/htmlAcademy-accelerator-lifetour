@@ -3,7 +3,7 @@
   padding: 88px 0 95px;
   border-bottom: 1px solid rgb($color-default-black, 0.2);
 
-  @include vp-1439 {
+  @include vp-1199 {
     padding: 59px 0 40px;
   }
 
@@ -14,7 +14,7 @@
 
 .contacts__container {
 
-  @include vp-1439 {
+  @include vp-1199 {
     padding: 0 43px 0 45px;
   }
 
@@ -26,7 +26,7 @@
 .contacts__title-wrapper {
   position: relative;
 
-  @include vp-1439 {}
+  @include vp-1199 {}
 
   @include vp-767 {}
 }
@@ -37,7 +37,7 @@
   font-weight: 800;
   line-height: 100%;
 
-  @include vp-1439 {
+  @include vp-1199 {
     margin-bottom: 17px;
     font-size: 25px;
     line-height: 25px;
@@ -60,7 +60,7 @@
   line-height: 55px;
   opacity: 0.03;
 
-  @include vp-1439 {
+  @include vp-1199 {
     font-size: 40px;
     line-height: 40px;
   }
@@ -78,7 +78,7 @@
   font-size: 16px;
   line-height: 24px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     max-width: 480px;
     margin-bottom: 40px;
     font-size: 16px;
@@ -98,7 +98,7 @@
   bottom: 95px;
   right: 120px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     position: static;
     margin: 0 auto;
   }
@@ -108,7 +108,7 @@
 
 .contacts__img-map {
 
-  @include vp-1439 {
+  @include vp-1199 {
     height: 340px;
     width: 100%;
     max-width: 1024px;
@@ -128,7 +128,7 @@
   top: 50%;
   right: calc(31% + 2px);
 
-  @include vp-1439 {
+  @include vp-1199 {
     top: calc(70% + 3px);
     right: calc(44% + 3px);
     height: 45px;

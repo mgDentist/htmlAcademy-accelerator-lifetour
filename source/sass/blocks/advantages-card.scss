@@ -4,7 +4,7 @@
   text-align: center;
   border: 1px solid rgb($color-navy-blue, 0.10);
 
-  @include vp-1439 {
+  @include vp-1199 {
     max-width: 412px;
     padding: 30px 19px;
   }
@@ -25,7 +25,7 @@
   margin-bottom: 29px;
   border: 1px solid $color-navy-blue;
 
-  @include vp-1439 {
+  @include vp-1199 {
     padding: 11px;
     margin-bottom: 25px;
   }
@@ -37,7 +37,7 @@
 }
 
 .advantages-card__svg {
-  @include vp-1439 {
+  @include vp-1199 {
     width: 23px;
     height: 23px;
   }
@@ -51,7 +51,7 @@
   font-weight: 600;
   line-height: 18px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     font-size: 16px;
     line-height: 16px;
   }
@@ -66,7 +66,7 @@
   font-size: 14px;
   line-height: 22px;
 
-  @include vp-1439 {
+  @include vp-1199 {
 
   }
 
@@ -79,7 +79,7 @@
 .advantages-card__br-expertize-tablet-768 {
   display: none;
 
-  @include vp-1439 {
+  @include vp-1199 {
     display: block;
   }
 
@@ -105,7 +105,7 @@
 .advantages-card__br-equipment-tablet-768 {
   display: none;
 
-  @include vp-1439 {
+  @include vp-1199 {
     display: block;
   }
 }
@@ -127,7 +127,7 @@
 .advantages-card__br-routs-tablet-768 {
   display: none;
 
-  @include vp-1439 {
+  @include vp-1199 {
     display: block;
   }
 
@@ -139,7 +139,7 @@
 .advantages-card__br-nature-tablet-768 {
   display: none;
 
-  @include vp-1439 {
+  @include vp-1199 {
     display: block;
   }
 }

@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
 
-  @include vp-1439 {
+  @include vp-1199 {
     padding: 190px 0 186px;
   }
 
@@ -28,7 +28,7 @@
   z-index: 1;
   text-align: center;
 
-  @include vp-1439 {
+  @include vp-1199 {
     max-width: 300px;
   }
 
@@ -44,7 +44,7 @@
   line-height: 100%;
   color: $color-default-white;
 
-  @include vp-1439 {
+  @include vp-1199 {
     margin-left: -5px;
     margin-bottom: 29px;
     font-size: 25px;
@@ -65,7 +65,7 @@
   line-height: 24px;
   color: $color-default-white;
 
-  @include vp-1439 {
+  @include vp-1199 {
     margin-left: -2px;
     margin-bottom: 24px;
   }

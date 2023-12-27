@@ -1,7 +1,7 @@
 .advantages {
   padding: 65px 0 80px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     padding: 68px 0 42px;
   }
 
@@ -13,7 +13,7 @@
 .advantages__container {
   padding: 0;
 
-  @include vp-1439 {
+  @include vp-1199 {
     padding: 0 45px;
   }
 
@@ -33,7 +33,7 @@
   font-weight: 800;
   line-height: 100%;
 
-  @include vp-1439 {}
+  @include vp-1199 {}
 
   @include vp-767 {
     margin-bottom: 21px;
@@ -67,7 +67,7 @@
 .advantages__slider {
   margin-bottom: 48px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     margin-bottom: 0;
     overflow: initial;
   }
@@ -75,7 +75,7 @@
 
 .advantages__list {
 
-  @include vp-1439 {
+  @include vp-1199 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -91,7 +91,7 @@
   height: auto;
 
   &:last-child {
-    @include vp-1439 {
+    @include vp-1199 {
       max-width: 380px;
     }
   }
@@ -106,7 +106,7 @@
 .advantages__slider-button {
   padding: 13px 10px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     display: none;
   }
 }

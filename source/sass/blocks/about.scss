@@ -2,7 +2,7 @@
   position: relative;
   padding: 79px 0 81px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     padding: 18px 0 2px;
   }
 
@@ -15,7 +15,7 @@
   max-width: 585px;
   margin: 0 0 0 auto;
 
-  @include vp-1439 {
+  @include vp-1199 {
     max-width: 526px;
   }
 
@@ -34,7 +34,7 @@
   z-index: -1;
   top: 56px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     top: 60px;
   }
 
@@ -50,7 +50,7 @@
   margin-bottom: 56px;
   // overflow: hidden;
 
-  @include vp-1439 {
+  @include vp-1199 {
     margin-left: 6px;
     margin-bottom: 35px;
   }
@@ -66,7 +66,7 @@
   font-weight: 800;
   line-height: 100%;
 
-  @include vp-1439 {
+  @include vp-1199 {
     font-size: 25px;
     line-height: 25px;
   }
@@ -87,7 +87,7 @@
   opacity: 0.03;
   white-space: nowrap;
 
-  @include vp-1439 {
+  @include vp-1199 {
     font-size: 40px;
     line-height: 40px;
   }
@@ -104,7 +104,7 @@
   flex-direction: column;
   gap: 29px;
 
-  @include vp-1439 {}
+  @include vp-1199 {}
 
   @include vp-767 {
     gap: 27px;
@@ -114,7 +114,7 @@
 .about__inner-container {
   // max-width: 570px;
 
-  @include vp-1439 {}
+  @include vp-1199 {}
 
   @include vp-767 {}
 }
@@ -125,7 +125,7 @@
   font-weight: 700;
   line-height: 21px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     margin-bottom: 11px;
     font-size: 18px;
     line-height: 18px;
@@ -143,7 +143,7 @@
   font-weight: 400;
   line-height: 22px;
 
-  @include vp-1439 {}
+  @include vp-1199 {}
 
   @include vp-767 {
     line-height: 20px;
@@ -152,7 +152,7 @@
 
 .about__br-desktop {
 
-  @include vp-1439 {
+  @include vp-1199 {
     display: none;
   }
 

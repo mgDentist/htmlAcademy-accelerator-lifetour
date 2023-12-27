@@ -4,27 +4,11 @@
   margin: 0 auto;
   padding: 0 120px;
 
-  // @include vp-1599 {
-  //   padding: 0 120px;
-  // }
-
-  @include vp-1439 {
+  @include vp-1199 {
     padding: 0 45px;
   }
 
   @include vp-767 {
     padding: 0 15px;
   }
-}
-
-// @include vp-1599 {
-
-// }
-
-@include vp-1439 {
-
-}
-
-@include vp-767 {
-
 }

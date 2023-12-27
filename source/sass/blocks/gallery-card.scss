@@ -7,7 +7,7 @@
   &:nth-child(5n+1) {
     max-width: 275px;
 
-    @include vp-1439 {
+    @include vp-1199 {
       max-width: 338px;
       min-width: 338px;
     }
@@ -27,7 +27,7 @@
     max-width: 298px;
     min-width: 298px;
 
-    @include vp-1439 {
+    @include vp-1199 {
       max-width: 338px;
       min-width: 338px;
     }
@@ -47,7 +47,7 @@
     max-width: 272px;
     min-width: 272px;
 
-    @include vp-1439 {
+    @include vp-1199 {
       max-width: 338px;
       min-width: 338px;
     }
@@ -67,7 +67,7 @@
     max-width: 298px;
     min-width: 298px;
 
-    @include vp-1439 {
+    @include vp-1199 {
       max-width: 338px;
       min-width: 338px;
     }
@@ -87,7 +87,7 @@
     max-width: 276px;
     min-width: 276px;
 
-    @include vp-1439 {
+    @include vp-1199 {
       max-width: 338px;
       min-width: 338px;
     }
@@ -115,7 +115,7 @@
     flex-direction: column;
     gap: 5px;
 
-    @include vp-1439 {
+    @include vp-1199 {
       max-width: 252px;
     }
 

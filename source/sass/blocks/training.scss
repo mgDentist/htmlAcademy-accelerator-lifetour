@@ -1,7 +1,7 @@
 .training {
   padding: 43px 0 25px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     padding: 63px 0 47px;
   }
 
@@ -16,7 +16,7 @@
   font-size: 16px;
   line-height: 24px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     max-width: 560px;
   }
 
@@ -37,7 +37,7 @@
   font-weight: 800;
   line-height: 100%;
 
-  @include vp-1439 {
+  @include vp-1199 {
     margin-bottom: 20px;
     font-size: 25px;
     line-height: 25px;
@@ -61,7 +61,7 @@
   opacity: 0.03;
 
 
-  @include vp-1439 {
+  @include vp-1199 {
     font-size: 40px;
     line-height: 40px;
   }
@@ -76,7 +76,7 @@
   position: relative;
   padding: 60px 0 58px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     padding: 30px 0 27px;
   }
 
@@ -86,7 +86,7 @@
 }
 
 .training__slider {
-  @include vp-1439 {
+  @include vp-1199 {
     max-width: 934px;
   }
 
@@ -102,7 +102,7 @@
 .training__instructors-wrapper {
   margin-bottom: 52px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     margin-bottom: 62px;
   }
 
@@ -117,7 +117,7 @@
   line-height: 21px;
 
 
-  @include vp-1439 {}
+  @include vp-1199 {}
 
   @include vp-767 {}
 }
@@ -132,7 +132,7 @@
   opacity: 0.03;
 
 
-  @include vp-1439 {}
+  @include vp-1199 {}
 
   @include vp-767 {}
 }
@@ -145,7 +145,7 @@
   gap: 4px;
 
 
-  @include vp-1439 {
+  @include vp-1199 {
     top: 48px;
   }
 
@@ -158,7 +158,7 @@
   padding: 11px 11px 13px 10px;
 
 
-  @include vp-1439 {
+  @include vp-1199 {
     padding: 11px 11px 12px 10px;
   }
 
@@ -167,7 +167,7 @@
 
 .training__link-arrow {
 
-  @include vp-1439 {
+  @include vp-1199 {
     margin-top: 1px;
   }
 

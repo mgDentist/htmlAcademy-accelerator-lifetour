@@ -2,7 +2,7 @@
   position: relative;
   padding: 100px 0 110px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     padding: 45px 0 55px;
   }
 
@@ -27,7 +27,7 @@
   flex-direction: column;
   gap: 30px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     gap: 2px;
   }
 
@@ -48,7 +48,7 @@
   font-weight: 800;
   line-height: 100%;
 
-  @include vp-1439 {
+  @include vp-1199 {
     font-size: 35px;
   }
 
@@ -81,7 +81,7 @@
 
 .tours__slider {
 
-  @include vp-1439 {
+  @include vp-1199 {
     max-width: 934px;
   }
 
@@ -102,7 +102,7 @@
   letter-spacing: 0.64px;
   text-transform: uppercase;
 
-  @include vp-1439 {
+  @include vp-1199 {
     gap: 14px;
   }
 
@@ -139,7 +139,7 @@
   display: flex;
   gap: 4px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     top: -61px;
   }
 
@@ -151,7 +151,7 @@
 .tours__slider-button {
   padding: 13px 10px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     padding: 13px 11px 12px 10px;
   }
 

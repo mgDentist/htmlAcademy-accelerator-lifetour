@@ -5,7 +5,7 @@
   align-items: center;
   gap: 21px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     gap: 14px;
   }
 
@@ -25,7 +25,7 @@
   font-size: 16px;
   line-height: 16px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     font-size: 14px;
     line-height: 14px;
   }

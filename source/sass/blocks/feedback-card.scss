@@ -6,7 +6,7 @@
   background-color: $color-default-white;
   box-shadow: 0px 0px 20px 0px rgba($color-resolution-blue, 0.10);
 
-  @include vp-1439 {
+  @include vp-1199 {
     max-width: 557px;
     padding: 20px 30px 20px 10px;
   }
@@ -29,7 +29,7 @@
   // justify-content: space-between;
   gap: 12px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     gap: 24px;
   }
 
@@ -44,7 +44,7 @@
   flex-direction: column;
   gap: 2px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     gap: 7px;
   }
 
@@ -56,7 +56,7 @@
   font-size: 14px;
   line-height: 22px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     margin-top: 3px;
     font-size: 12px;
     line-height: 18px;
@@ -73,7 +73,7 @@
   font-weight: 700;
   line-height: 13px;
 
-  @include vp-1439 {
+  @include vp-1199 {
     margin-bottom: 6px;
 
   }
@@ -90,7 +90,7 @@
   font-weight: 300;
   line-height: 100%;
 
-  @include vp-1439 {
+  @include vp-1199 {
     line-height: 12px;
   }
 
@@ -100,7 +100,7 @@
 .feedback-card__altay {
   display: none;
 
-  @include vp-1439 {
+  @include vp-1199 {
     display: block;
   }
 

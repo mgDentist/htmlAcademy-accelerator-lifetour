@@ -15,7 +15,7 @@
   top: -13px;
   right: calc(-15% + 6px);
 
-  @include vp-1439 {
+  @include vp-1199 {
     position: relative;
     max-width: 442px;
     right: -25%;
@@ -28,7 +28,7 @@
 
 .hero-kamchatka__lower-photo {
 
-  @include vp-1439 {
+  @include vp-1199 {
     position: absolute;
     left: 0;
   }
@@ -41,7 +41,7 @@
   top: 23%;
   right: -33%;
 
-  @include vp-1439 {
+  @include vp-1199 {
     right: 0;
   }
 
