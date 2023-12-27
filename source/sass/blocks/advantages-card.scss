@@ -2,6 +2,7 @@
   max-width: 380px;
   padding: 40px 19px;
   text-align: center;
+  background-color: $color-default-white;
   border: 1px solid rgb($color-navy-blue, 0.10);
 
   @include vp-1199 {

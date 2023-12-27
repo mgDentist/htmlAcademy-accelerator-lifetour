@@ -1,5 +1,7 @@
 .advantages {
   padding: 65px 0 80px;
+  position: relative;
+  overflow: hidden;
 
   @include vp-1199 {
     padding: 68px 0 42px;
@@ -107,6 +109,38 @@
   padding: 13px 10px;
 
   @include vp-1199 {
+    display: none;
+  }
+}
+
+.advantages__background-cloud-left {
+  position: absolute;
+  top: -125px;
+  left: 0px;
+  z-index: -1;
+
+  @include vp-1199 {
+    top: 261px;
+    right: 141px;
+  }
+
+  @include vp-767 {
+    display: none;
+  }
+}
+
+.advantages__background-cloud-right {
+  position: absolute;
+  bottom: 319px;
+  right: 0px;
+  z-index: -1;
+
+  @include vp-1199 {
+    bottom: 246px;
+    right: -128px;
+  }
+
+  @include vp-767 {
     display: none;
   }
 }

@@ -96,15 +96,21 @@
     border: 1px solid $color-resolution-blue;
     stroke: none;
   }
+
+  svg {
+    position: absolute;
+    top: 32%;
+    left: 43%;
+  }
 }
 
-.hero-caucasus__svg-button-play {
-  position: absolute;
-  top: 32%;
-  left: 43%;
+// .hero-caucasus__svg-button-play {
+//   position: absolute;
+//   top: 32%;
+//   left: 43%;
 
 
-  @include vp-1199 {}
+//   @include vp-1199 {}
 
-  @include vp-767 {}
-}
+//   @include vp-767 {}
+// }
