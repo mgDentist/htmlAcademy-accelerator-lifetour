@@ -17,16 +17,13 @@
 
 .form__input-wrapper {
   position: relative;
-  // display: flex;
-  // flex-direction: column;
-  // gap: 10px;
 }
 
 .form__input-wrapper span {
- position: absolute;
- left: 10px;
- bottom: -25px;
- color: $color-torch-red;
+  position: absolute;
+  left: 10px;
+  bottom: -25px;
+  color: $color-torch-red;
 }
 
 .form__input {
@@ -63,11 +60,6 @@
   @include focus {
     border: 1px solid $color-resolution-blue;
     outline: none;
-
-    // &::placeholder {
-    //   color: $color-navy-blue;
-    //   opacity: 1;
-    // }
   }
 
   @include active {
