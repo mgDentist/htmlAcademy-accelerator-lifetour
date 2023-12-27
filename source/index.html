@@ -1747,11 +1747,17 @@
             <h2>Остались вопросы?</h2>
             <p>Заполните форму и наш оператор свяжется с вами для консультации.</p>
           </div>
-          <form class="form-section__form form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="form__input" type="tel" name="tel" id="tel" placeholder="Телефон" required>
-            <input class="form__input" type="email" name="email" id="email" placeholder="Email" required>
-            <button class="form__button btn" type="submit">Отправить</button>
-          </form>
+          <div data-form-node data-form-validate data-callback="base">
+            <form class="form-section__form form" action="https://echo.htmlacademy.ru/" method="POST">
+              <div class="form__input-wrapper" data-validate-type="phone" data-message-base="Поле обязательно к заполнению" data-required data-on-input-validate>
+                <input class="form__input" type="tel" name="tel" placeholder="Телефон" autocomplete="off" aria-label="Введите ваш телефон" required>
+              </div>
+              <div class="form__input-wrapper" data-validate-type="email" data-message-base="Поле обязательно к заполнению" data-message-extra="Проверьте правильность заполнения" data-required data-on-input-validate>
+                <input class="form__input" type="email" name="email" placeholder="Email" autocomplete="off" aria-label="Введите ваш email" required>
+              </div>
+              <button class="form__button btn" type="submit" data-form-submit="">Отправить</button>
+            </form>
+          </div>
         </div>
       </section>
 
@@ -1893,6 +1899,8 @@
       </section>
     </footer>
   </div>
+
+  <div class="overlay" data-burger="overlay"></div>
 
   <script src="js/vendor.min.js"></script>
   <script src="js/main.min.js"></script>

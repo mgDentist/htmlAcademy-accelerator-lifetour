@@ -15,6 +15,20 @@
   }
 }
 
+.form__input-wrapper {
+  position: relative;
+  // display: flex;
+  // flex-direction: column;
+  // gap: 10px;
+}
+
+.form__input-wrapper span {
+ position: absolute;
+ left: 10px;
+ bottom: -25px;
+ color: $color-torch-red;
+}
+
 .form__input {
   width: 360px;
   padding: 19px 30px;
