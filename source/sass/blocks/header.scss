@@ -3,19 +3,7 @@
   left: 0;
   right: 0;
   z-index: 10;
-
-  @include vp-1199 {}
-
-  @include vp-767 {}
 }
-
-// .header__logo {
-//   color: $color-default-white;
-
-//   &--mobile-menu-opened {
-//     color: $color-default-black;
-//   }
-// }
 
 .header__button {
   display: none;
@@ -59,8 +47,6 @@
     max-width: 768px;
     padding: 0;
   }
-
-  @include vp-767 {}
 }
 
 .header__inner-container {
@@ -113,7 +99,6 @@
 
     @include vp-767 {
       justify-content: start;
-      justify-content: start;
       align-items: end;
     }
   }
@@ -122,14 +107,6 @@
 .header__logo-link {
   display: flex;
   align-items: center;
-
-  // svg {
-  //   color: $color-default-white;
-
-  // //   &--mobile-menu-opened {
-  // //     color: $color-default-black;
-  // //   }
-  // }
 }
 
 .header__tel {
@@ -166,12 +143,9 @@
 }
 
 .header__nav {
-
   @include vp-1199 {
     display: none;
   }
-
-  @include vp-767 {}
 
   &--mobile-menu-opened {
     display: block;
@@ -183,7 +157,6 @@
       flex-direction: column;
       align-items: start;
       gap: 26px;
-      position: absolute;
 
       @include vp-767 {
         gap: 22px;

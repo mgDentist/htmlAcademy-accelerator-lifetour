@@ -1,3 +1,11 @@
+.hero-caucasus__backgraund-wrapper {
+  display: flex;
+
+  @include vp-1199 {
+    justify-content: center;
+  }
+}
+
 .hero-caucasus__backgraund-wrapper img {
   width: 100%;
   height: 800px;
@@ -33,10 +41,6 @@
   display: inline-block;
   position: absolute;
   z-index: 1;
-
-  @include vp-1199 {}
-
-  @include vp-767 {}
 }
 
 .hero-caucasus__video {
@@ -46,8 +50,6 @@
     width: 442px;
     height: 300px;
   }
-
-  @include vp-767 {}
 }
 
 .hero-caucasus__button-play {
@@ -65,8 +67,6 @@
     top: 40%;
     right: calc(46% + 2px);
   }
-
-  @include vp-767 {}
 
   path {
     fill: $color-default-white;

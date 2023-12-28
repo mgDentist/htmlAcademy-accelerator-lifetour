@@ -13,12 +13,6 @@
 .footer__container {
   display: flex;
   flex-direction: column;
-
-  @include vp-1199 {}
-
-  @include vp-767 {
-    // gap: 23px;
-  }
 }
 
 .footer__top-content {
@@ -51,7 +45,7 @@
   }
 
   @include vp-767 {
-    margin-right: 0px;
+    margin-right: 0;
     margin-bottom: 17px;
   }
 }
@@ -74,10 +68,6 @@
 
 .footer__nav {
   margin-top: 2px;
-
-  @include vp-1199 {}
-
-  @include vp-767 {}
 }
 
 .footer__tel {
@@ -114,20 +104,12 @@
 
 .footer__link-container {
   text-align: center;
-
-  @include vp-1199 {}
-
-  @include vp-767 {}
 }
 
 .footer__link {
   font-size: 12px;
   font-weight: 300;
   line-height: 100%;
-
-  @include vp-1199 {}
-
-  @include vp-767 {}
 
   @include hover {
     color: rgb($color-default-black, 0.5);

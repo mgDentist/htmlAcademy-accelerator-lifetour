@@ -12,10 +12,6 @@
 
 .feedback__slider-wrapper {
   position: relative;
-
-  @include vp-1199 {}
-
-  @include vp-767 {}
 }
 
 .feedback__title-wrapper {
@@ -54,7 +50,7 @@
   font-size: 55px;
   font-weight: 800;
   line-height: 55px;
-  opacity: .03;
+  opacity: 0.03;
   white-space: nowrap;
 
   @include vp-1199 {
@@ -67,15 +63,10 @@
     font-size: 26px;
     line-height: 26px;
   }
-
 }
 
 .feedback__list {
   padding: 10px;
-
-  @include vp-1199 {}
-
-  @include vp-767 {}
 }
 
 .feedback__slider-button-container {
@@ -96,8 +87,4 @@
 
 .feedback__slider-button {
   padding: 13px 10px;
-
-  @include vp-1199 {}
-
-  @include vp-767 {}
 }

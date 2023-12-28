@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 15px;
   padding: 15px;
-  border: 1px solid rgba($color-navy-blue, 0.10);
+  border: 1px solid rgba($color-navy-blue, 0.1);
   background-color: $color-default-white;
 
   @include vp-1199 {
@@ -43,9 +43,6 @@
     margin-top: -2px;
     margin-bottom: 0;
   }
-
-  @include vp-767 {
-  }
 }
 
 .trainer-card__title {
@@ -57,7 +54,7 @@
 .trainer-card__link-social {
   align-self: start;
   margin-top: -1px;
-  padding: 0px 4px 0 5px;
+  padding: 0 4px 0 5px;
   color: $color-default-black;
   border: 1px solid rgb($color-default-black, 0.3);
 
@@ -78,8 +75,3 @@
     border: 1px solid rgb($color-default-black, 0.3);
   }
 }
-
-
-@include vp-1199 {}
-
-@include vp-767 {}

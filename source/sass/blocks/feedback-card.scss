@@ -4,7 +4,7 @@
   gap: 30px;
   padding: 17px 41px 20px 20px;
   background-color: $color-default-white;
-  box-shadow: 0px 0px 20px 0px rgba($color-resolution-blue, 0.10);
+  box-shadow: 0 0 20px 0 rgba($color-resolution-blue, 0.1);
 
   @include vp-1199 {
     max-width: 557px;
@@ -26,7 +26,6 @@
 .feedback-card__text-container {
   display: flex;
   flex-direction: column;
-  // justify-content: space-between;
   gap: 12px;
 
   @include vp-1199 {
@@ -47,8 +46,6 @@
   @include vp-1199 {
     gap: 7px;
   }
-
-  @include vp-767 {}
 }
 
 .feedback-card__description-wrapper p {
@@ -75,7 +72,6 @@
 
   @include vp-1199 {
     margin-bottom: 6px;
-
   }
 
   @include vp-767 {
@@ -93,8 +89,6 @@
   @include vp-1199 {
     line-height: 12px;
   }
-
-  @include vp-767 {}
 }
 
 .feedback-card__altay {
@@ -103,7 +97,4 @@
   @include vp-1199 {
     display: block;
   }
-
-  @include vp-767 {}
 }
-

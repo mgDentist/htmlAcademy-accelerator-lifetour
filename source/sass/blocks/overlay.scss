@@ -9,7 +9,8 @@
   background-color: $color-elephant-50;
   visibility: hidden;
   opacity: 0;
-  transition: opacity $trans-modal,
+  transition:
+    opacity $trans-modal,
     visibility $trans-modal;
   pointer-events: none;
   -ms-overflow-style: none;

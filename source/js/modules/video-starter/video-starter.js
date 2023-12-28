@@ -8,7 +8,7 @@ export const videoStarter = () => {
         poster.style.display = 'none';
       }
 
-      const myIframe = document.querySelector('[data-video="hero-video"]');
+      const myIframe = document.querySelector('[data-video="hero-video"] iframe');
       const src = myIframe.src;
       myIframe.src = src.includes('?') ? `${src}&autoplay=1` : `${src}?autoplay=1`;
 

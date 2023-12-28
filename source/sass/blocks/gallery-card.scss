@@ -103,13 +103,6 @@
     }
   }
 
-  // :nth-child(even) {
-  //   @include vp-767 {
-  //     max-width: 252px;
-  //     min-width: 252px;
-  //   }
-  // }
-
   &--double {
     display: flex;
     flex-direction: column;
@@ -131,10 +124,5 @@
         max-height: 260px;
       }
     }
-  }
-
-
-  :nth-child(even) {
-
   }
 }

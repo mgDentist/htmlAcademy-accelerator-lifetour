@@ -5,7 +5,7 @@ export const menuOpener = () => {
 
   const menuToggleButton = document.querySelector('[data-button="menu-toggle"]');
   const headerInnerContainer = document.querySelector('[data-header="header-inner-container"]');
-  const headerRightWrapper = document.querySelector('[data="header-right-wrapper"]');
+  const headerRightWrapper = document.querySelector('[data-header="header-right-wrapper"]');
   const headerTel = document.querySelector('[data-header="header-tel"]');
   const headerLogo = document.querySelector('[data-header="header-logo"] svg');
   const headerNav = document.querySelector('[data-nav="header-nav"]');
