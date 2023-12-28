@@ -83,8 +83,13 @@
     max-width: 934px;
   }
 
+  @include vp-1023 {
+    max-width: 678px;
+  }
+
   @include vp-767 {
-    max-width: 458px;
+    // max-width: 458px;
+    max-width: 320px;
   }
 }
 

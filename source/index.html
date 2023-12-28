@@ -24,39 +24,39 @@
   <div class="wrapper">
     <header class="header">
       <div class="container header__container">
-        <div class="header__inner-container">
+        <div class="header__inner-container" data-header="header-inner-container">
           <button class="header__button" type="button" aria-label="кнопка открытия меню." data-button="menu-toggle">
             <span class="visually-hidden">Открыть меню</span>
           </button>
-          <div class="header__right-wrapper">
-            <a href="index.html" class="header__logo-link" aria-label="логотип компании LifeTour">
-              <svg class="header__logo" width="142" height="42" role="img" focusable="false" aria-hidden="true">
+          <div class="header__right-wrapper" data="header-right-wrapper">
+            <a href="index.html" class="header__logo-link" aria-label="логотип компании LifeTour" data-header="header-logo">
+              <svg width="142" height="42" role="img" focusable="false" aria-hidden="true">
                 <use href="img/sprite.svg#logotype"></use>
               </svg>
             </a>
             <nav class="header__nav" data-nav="header-nav">
               <ul class="nav-list">
                 <li class="nav-list__item">
-                  <a class="nav-list__link" href="#tours">Туры</a>
+                  <a class="nav-list__link" data-nav="nav-list-link" href="#tours">Туры</a>
                 </li>
                 <li class="nav-list__item">
-                  <a class="nav-list__link" href="#training">Обучение</a>
+                  <a class="nav-list__link" data-nav="nav-list-link" href="#training">Обучение</a>
                 </li>
                 <li class="nav-list__item">
-                  <a class="nav-list__link" href="#about">О нас</a>
+                  <a class="nav-list__link" data-nav="nav-list-link" href="#about">О нас</a>
                 </li>
                 <li class="nav-list__item">
-                  <a class="nav-list__link" href="#feedback">Отзывы</a>
+                  <a class="nav-list__link" data-nav="nav-list-link" href="#feedback">Отзывы</a>
                 </li>
                 <li class="nav-list__item">
-                  <a class="nav-list__link" href="#gallery">Фотографии</a>
+                  <a class="nav-list__link" data-nav="nav-list-link" href="#gallery">Фотографии</a>
                 </li>
                 <li class="nav-list__item">
-                  <a class="nav-list__link" href="#contacts">Контакты</a>
+                  <a class="nav-list__link" data-nav="nav-list-link" href="#contacts">Контакты</a>
                 </li>
               </ul>
             </nav>
-            <a class="header__tel" href="tel:88007253232">8 800 725-32-32</a>
+            <a class="header__tel" href="tel:88007253232" data-header="header-tel">8 800 725-32-32</a>
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@
     <main>
       <section class="hero" id="hero" data-test="hero">
         <h1 class="visually-hidden">Наши направления</h1>
-        <div class="swiper hero__slider">
+        <div class="swiper hero__slider" data-slider="hero-slider">
           <div class="swiper-wrapper container hero__container">
             <div class="swiper-slide">
               <section class=" hero__subsection hero-caucasus">
@@ -328,7 +328,7 @@
               </section>
             </div>
           </div>
-          <div class="swiper-pagination hero__slider-pagination">
+          <div class="swiper-pagination hero__slider-pagination" data-slider="hero-slider-pgn">
           </div>
         </div>
       </section>
@@ -365,7 +365,7 @@
           </div>
 
           <div class="tours__slider-wrapper">
-            <div class="swiper tours__slider">
+            <div class="swiper tours__slider" data-slider="tours-slider">
               <ul class="tours__list swiper-wrapper">
                 <li class="tours__item tours-card swiper-slide">
                   <a href="#">
@@ -814,13 +814,13 @@
             </div>
 
             <div class="tours__slider-button-container">
-              <button class="tours__slider-button tours__slider-button--prev btn" type="button"
+              <button class="tours__slider-button tours__slider-button--prev btn" data-slider="tours-slider-btn-prev" type="button"
                 aria-label="предыдущий слайд">
                 <svg width="14" height="9" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#arrow-left"></use>
                 </svg>
               </button>
-              <button class="tours__slider-button tours__slider-button--next btn" type="button"
+              <button class="tours__slider-button tours__slider-button--next btn" data-slider="tours-slider-btn-next" type="button"
                 aria-label="следующий слайд">
                 <svg width="14" height="9" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#arrow-right"></use>
@@ -857,7 +857,7 @@
             <div class="training__instructors-wrapper">
               <h3 class="training__instructors">Наши инструкторы</h3>
             </div>
-            <div class="training__slider swiper"> <!--swiper-->
+            <div class="training__slider swiper" data-slider="training-slider"> <!--swiper-->
               <ul class="training__list swiper-wrapper"> <!--swiper-wrapper-->
                 <li class="training__item trainer-card swiper-slide"> <!--swiper-slide-->
                   <picture>
@@ -1188,13 +1188,13 @@
               </ul>
             </div>
             <div class="training__slider-button-container">
-              <button class="training__slider-button training__slider-button--prev btn" type="button"
+              <button class="training__slider-button training__slider-button--prev btn" data-slider="training-slider-button-prev" type="button"
                 aria-label="предыдущий слайд">
                 <svg width="14" height="9" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#arrow-left"></use>
                 </svg>
               </button>
-              <button class="training__slider-button training__slider-button--next btn" type="button"
+              <button class="training__slider-button training__slider-button--next btn" data-slider="training-slider-button-next" type="button"
                 aria-label="следующий слайд">
                 <svg width="14" height="9" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#arrow-right"></use>
@@ -1310,7 +1310,7 @@
           </div>
 
           <div class="feedback__slider-wrapper">
-            <div class="feedback__slider swiper"> <!--swiper-->
+            <div class="feedback__slider swiper" data-slider="feedback-slider"> <!--swiper-->
               <ul class="feedback__list swiper-wrapper"> <!--swiper-wrapper-->
                 <li class="feedback__item feedback-card swiper-slide"> <!--swiper-slide-->
                   <picture>
@@ -1456,13 +1456,13 @@
             </div>
 
             <div class="feedback__slider-button-container">
-              <button class="feedback__slider-button feedback__slider-button--prev btn" type="button"
+              <button class="feedback__slider-button feedback__slider-button--prev btn" data-slider="feedback-slider-btn-prev" type="button"
                 aria-label="предыдущий слайд">
                 <svg class="feedback__link-arrow" width="14" height="9" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#arrow-left"></use>
                 </svg>
               </button>
-              <button class="feedback__slider-button feedback__slider-button--next btn" type="button"
+              <button class="feedback__slider-button feedback__slider-button--next btn" data-slider="feedback-slider-btn-next" type="button"
                 aria-label="следующий слайд">
                 <svg class="feedback__link-arrow" width="14" height="9" role="img" focusable="false" aria-hidden="true">
                   <use href="img/sprite.svg#arrow-right"></use>
@@ -1505,7 +1505,7 @@
           </div>
 
           <div class="advantages__slider-wrapper">
-            <div class="advantages__slider swiper"> <!--swiper-->
+            <div class="advantages__slider swiper" data-slider="adv-slider"> <!--swiper-->
               <ul class="advantages__list swiper-wrapper"> <!--swiper-wrapper-->
                 <li class="advantages__item advantages-card swiper-slide"> <!--swiper-slide-->
                   <div class="advantages-card__svg-container">
@@ -1580,14 +1580,14 @@
             </div>
 
             <div class="advantages__slider-button-container">
-              <button class="advantages__slider-button advantages__slider-button--prev btn" type="button"
+              <button class="advantages__slider-button advantages__slider-button--prev btn" data-slider="adv-slider-btn-prev" type="button"
                 aria-label="предыдущий слайд">
                 <svg class="advantages__link-arrow" width="14" height="9" role="img" focusable="false"
                   aria-hidden="true">
                   <use href="img/sprite.svg#arrow-left"></use>
                 </svg>
               </button>
-              <button class="advantages__slider-button advantages__slider-button--next btn" type="button"
+              <button class="advantages__slider-button advantages__slider-button--next btn" data-slider="adv-slider-btn-next" type="button"
                 aria-label="следующий слайд">
                 <svg class="advantages__link-arrow" width="14" height="9" role="img" focusable="false"
                   aria-hidden="true">
@@ -1610,7 +1610,7 @@
         </div>
 
         <div class="gallery__slider-wrapper">
-          <div class="gallery__slider swiper"> <!--swiper-->
+          <div class="gallery__slider swiper" data-slider="gallery-slider"> <!--swiper-->
             <ul class="gallery__list swiper-wrapper"> <!--swiper-wrapper-->
               <li class="gallery__item gallery-card swiper-slide"> <!--swiper-slide-->
                 <picture>
@@ -1806,13 +1806,13 @@
           </div>
 
           <div class="gallery__slider-button-container">
-            <button class="gallery__slider-button gallery__slider-button--prev btn" type="button"
+            <button class="gallery__slider-button gallery__slider-button--prev btn" data-slider="gallery-slider-btn-prev" type="button"
               aria-label="предыдущий слайд">
               <svg class="gallery__link-arrow" width="14" height="9" role="img" focusable="false" aria-hidden="true">
                 <use href="img/sprite.svg#arrow-left"></use>
               </svg>
             </button>
-            <button class="gallery__slider-button gallery__slider-button--next btn" type="button"
+            <button class="gallery__slider-button gallery__slider-button--next btn" data-slider="gallery-slider-btn-next" type="button"
               aria-label="следующий слайд">
               <svg class="gallery__link-arrow" width="14" height="9" role="img" focusable="false" aria-hidden="true">
                 <use href="img/sprite.svg#arrow-right"></use>

@@ -4,13 +4,12 @@ import {Form} from './modules/form-validate/form';
 
 import {menuOpener} from './modules/menu-toggle/menu-toggle';
 import {videoStarter} from './modules/video-starter/video-starter';
-import {heroSlider} from './modules/slider-hero/slider-hero';
-import {toursSlider} from './modules/slider-tours/slider-tours';
-import {traningSlider} from './modules/slider-training/slider-training';
-import {feedbackSlider} from './modules/slider-feedback/slider-feedback';
+import {initHeroSlider} from './modules/slider-hero/slider-hero';
+import {initToursSlider} from './modules/slider-tours/slider-tours';
+import {initTraningSlider} from './modules/slider-training/slider-training';
+import {initFeedbackSlider} from './modules/slider-feedback/slider-feedback';
 import {initAdvantagesSlider} from './modules/slider-advantages/slider-advantages';
-import {advSlider} from './modules/slider-advantages/slider-advantages';
-import {gallerySlider} from './modules/slider-gallery/slider-gallery';
+import {initGallerySlider} from './modules/slider-gallery/slider-gallery';
 
 // ---------------------------------
 
@@ -24,13 +23,13 @@ window.addEventListener('DOMContentLoaded', () => {
   // Modules
   menuOpener();
   videoStarter();
-  // heroSlider();
-  // toursSlider();
-  // traningSlider();
-  // feedbackSlider();
+  initHeroSlider();
+  initToursSlider();
+  initTraningSlider();
+  initFeedbackSlider();
   initAdvantagesSlider();
-  // advSlider();
-  // gallerySlider();
+  initGallerySlider();
+
   // ---------------------------------
 
   // все скрипты должны быть в обработчике 'DOMContentLoaded', но не все в 'load'

@@ -1,30 +1,32 @@
 import Swiper from '../../vendor/swiper';
 
-export const feedbackSlider = new Swiper('.feedback__slider', {
+export const initFeedbackSlider = () => {
+  return new Swiper('[data-slider="feedback-slider"]', {
 
-  loop: true,
-  navigation: {
-    nextEl: '.feedback__slider-button--next',
-    prevEl: '.feedback__slider-button--prev',
-  },
-
-  breakpoints: {
-    1440: {
-      initialSlide: 0,
-      spaceBetween: 120,
-      slidesPerView: 'auto',
+    loop: true,
+    navigation: {
+      prevEl: '[data-slider="feedback-slider-btn-prev"]',
+      nextEl: '[data-slider="feedback-slider-btn-next"]',
     },
 
-    768: {
-      initialSlide: 0,
-      spaceBetween: 36,
-      slidesPerView: 'auto',
-    },
+    breakpoints: {
+      1200: {
+        initialSlide: 0,
+        spaceBetween: 120,
+        slidesPerView: 'auto',
+      },
 
-    350: {
-      initialSlide: 0,
-      slidesPerView: 1,
-      spaceBetween: 100,
+      768: {
+        initialSlide: 0,
+        spaceBetween: 36,
+        slidesPerView: 'auto',
+      },
+
+      350: {
+        initialSlide: 0,
+        slidesPerView: 1,
+        spaceBetween: 100,
+      },
     },
-  },
-});
+  });
+};
